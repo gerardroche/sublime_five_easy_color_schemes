@@ -4,10 +4,16 @@ Monokai, Solarized, and three other popular color schemes for Sublime Text 3.
 
 ## Overview
 
+* [Features](#features)
 * [Installation](#installation)
 * [Contributing](#contributing)
 * [Changelog](#changelog)
 * [License](#license)
+
+## Features
+
+* Supports [GitGutter](https://packagecontrol.io/packages/GitGutter)
+* Supports [SublimeLinter](https://packagecontrol.io/packages/SummitLinter)
 
 ## Installation
 

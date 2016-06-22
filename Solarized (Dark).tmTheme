@@ -1902,6 +1902,92 @@
 				<string>#DC322F</string>
 			</dict>
 		</dict>
+
+		<!-- SublimeLinter -->
+
+        <dict>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#b58900</string>
+                <key>background</key>
+                <string>#657b83</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#dc322f</string>
+                <key>fontStyle</key>
+                <string>undercurl</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#6c71c4</string>
+                <key>fontStyle</key>
+                <string>undercurl</string>
+            </dict>
+        </dict>
+
+
+		<!-- GitGutter -->
+
+        <dict>
+            <key>scope</key>
+            <string>markup.inserted.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#859900</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.changed.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#b58900</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.deleted.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#dc322f</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.ignored.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#657b83</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.untracked.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#657b83</string>
+            </dict>
+        </dict>
+
 	</array>
 	<key>uuid</key>
 	<string>A4299D9B-1DE5-4BC4-87F6-A757E71B1597</string>

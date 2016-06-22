@@ -14,6 +14,8 @@
 " INFO * #536871
 " INFO * #586e75
 " INFO * #5a74cf
+" INFO * #657b83
+" INFO * #6c71c4
 " INFO * #708284
 " INFO * #738a05
 " INFO * #748b00
@@ -44,6 +46,7 @@
 " INFO * #eae3ca
 " INFO * bold
 " INFO * italic
+" INFO * undercurl
 " INFO
 
 " http://docs.sublimetext.info/en/latest/reference/color_schemes.html
@@ -120,8 +123,13 @@ hi keyword.other.phpdoc                                         guifg=#899090
 hi keyword.other.special-method                                 guifg=#cb4b16
 hi keyword.other.unit.css                                       guifg=#269186
 hi markup.changed                                               guifg=#bf3904   guibg=#eae3ca
+hi markup.changed.git_gutter                                    guifg=#b58900
 hi markup.deleted                                               guifg=#d3201f   guibg=#eae3ca
+hi markup.deleted.git_gutter                                    guifg=#dc322f
+hi markup.ignored.git_gutter                                    guifg=#657b83
 hi markup.inserted                                              guifg=#219186   guibg=#eae3ca
+hi markup.inserted.git_gutter                                   guifg=#859900
+hi markup.untracked.git_gutter                                  guifg=#657b83
 hi meta.array.empty.php support.function.construct.php          guifg=#a57800
 hi meta.array.php                                               guifg=#536871
 hi meta.array.php support.function.construct.php                guifg=#a57800
@@ -217,6 +225,9 @@ hi string.quoted.double                                         guifg=#269186
 hi string.quoted.double.doctype.identifiers-and-dtds.html       guifg=#899090                   gui=italic
 hi string.quoted.single                                         guifg=#269186
 hi string.regexp                                                guifg=#d30102
+hi sublimelinter.gutter-mark                                    guifg=#b58900   guibg=#657b83
+hi sublimelinter.mark.error                                     guifg=#dc322f                   gui=undercurl
+hi sublimelinter.mark.warning                                   guifg=#6c71c4                   gui=undercurl
 hi support.class                                                guifg=#859900
 hi support.class.php                                            guifg=#839496
 hi support.class.ruby                                           guifg=#a57800

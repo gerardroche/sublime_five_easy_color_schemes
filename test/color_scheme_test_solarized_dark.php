@@ -1,6 +1,27 @@
 COLOR TEST "Packages/five_easy_color_schemes/Solarized (Dark).tmTheme" "PHP"
 <?php
 
+// ----- Background Tones ----------------------------------
+//                           base03      #002b36 > 0, 43, 54
+//                           base02      #073642 > 7, 54, 66
+// ----- Content Tones -------------------------------------
+//                           base01      #586e75
+//                           base00      #657b83
+//                           base0       #839496
+//                           base1       #93a1a1
+// ----- Background Tones ----------------------------------
+//                           base2       #657b83
+//                           base3       #fdf6e3
+// ----- Accents -------------------------------------------
+//                           yellow      #b58900
+//                           orange      #cb4b16 > 203, 75, 22
+//                           red         #dc322f
+//                           magenta     #d33682
+//                           violet      #6c71c4
+//                           blue        #268bd2 > 38, 139, 210
+//                           cyan        #2aa198
+//                           green       #859900 > 133, 153, 0
+
       //
 // ^ fg=#839496 bg=#042029 fs=
 

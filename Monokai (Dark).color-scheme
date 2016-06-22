@@ -5,17 +5,22 @@
 " INFO List of colors and styles used:
 " INFO
 " INFO * #000000
+" INFO * #009900
+" INFO * #1e0010
 " INFO * #222218
 " INFO * #272822
 " INFO * #3b3a32
 " INFO * #3e3d32
 " INFO * #49483e
+" INFO * #565656
 " INFO * #66d9ef
+" INFO * #7070f0
 " INFO * #75715e
 " INFO * #9d550fb0
 " INFO * #a6e22e
 " INFO * #ae81ff
 " INFO * #ae81ffa0
+" INFO * #bbbb00
 " INFO * #cfcfc2
 " INFO * #e6db74
 " INFO * #f83333
@@ -24,10 +29,13 @@
 " INFO * #f8f8f2a5
 " INFO * #f92672
 " INFO * #fd971f
+" INFO * #ff0000
+" INFO * #ff2222
 " INFO * #ffe792
 " INFO * italic
 " INFO * italic underline
 " INFO * stippled_underline
+" INFO * undercurl
 " INFO * underline
 " INFO
 
@@ -69,8 +77,13 @@ hi invalid.deprecated                                           guifg=#f8f8f0   
 hi keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator) guifg=#f92672
 hi keyword.operator.word                                        guifg=#f92672
 hi markup.changed                                               guifg=#e6db74
+hi markup.changed.git_gutter                                    guifg=#bbbb00
 hi markup.deleted                                               guifg=#f92672
+hi markup.deleted.git_gutter                                    guifg=#ff2222
+hi markup.ignored.git_gutter                                    guifg=#565656
 hi markup.inserted                                              guifg=#a6e22e
+hi markup.inserted.git_gutter                                   guifg=#009900
+hi markup.untracked.git_gutter                                  guifg=#565656
 hi message.error                                                guifg=#f83333
 hi meta.diff                                                    guifg=#75715e
 hi meta.diff.header                                             guifg=#75715e
@@ -79,6 +92,9 @@ hi storage                                                      guifg=#f92672
 hi storage.type                                                 guifg=#66d9ef                   gui=italic
 hi string                                                       guifg=#e6db74
 hi string.unquoted.yaml                                         guifg=#f8f8f2
+hi sublimelinter.gutter-mark                                    guifg=#e6db74   guibg=#1e0010
+hi sublimelinter.mark.error                                     guifg=#ff0000                   gui=undercurl
+hi sublimelinter.mark.warning                                   guifg=#7070f0                   gui=undercurl
 hi support.class                                                guifg=#66d9ef                   gui=italic
 hi support.constant                                             guifg=#66d9ef
 hi support.function                                             guifg=#66d9ef
