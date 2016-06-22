@@ -28,6 +28,8 @@ This is the preferred method of installation. Search for "[five_easy_color_schem
 
 Your issue reports and pull requests are always welcome.
 
+The tests are run via [Color Scheme Unit](https://github.com/gerardroche/sublime_color_scheme_unit). Manual installation is required to run the tests because the tests are not included in production releases (Package Control installations).
+
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md).
