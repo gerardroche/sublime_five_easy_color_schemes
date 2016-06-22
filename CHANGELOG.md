@@ -2,3 +2,4 @@
 
 ## unreleased
 
+* Added: Monokai
