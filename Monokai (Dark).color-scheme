@@ -1,0 +1,89 @@
+" INFO
+" INFO *All lines prefixed with INFO are auto generated, any changes may
+" INFO  be overwritten.*
+" INFO
+" INFO List of colors and styles used:
+" INFO
+" INFO * #000000
+" INFO * #222218
+" INFO * #272822
+" INFO * #3b3a32
+" INFO * #3e3d32
+" INFO * #49483e
+" INFO * #66d9ef
+" INFO * #75715e
+" INFO * #9d550fb0
+" INFO * #a6e22e
+" INFO * #ae81ff
+" INFO * #ae81ffa0
+" INFO * #cfcfc2
+" INFO * #e6db74
+" INFO * #f83333
+" INFO * #f8f8f0
+" INFO * #f8f8f2
+" INFO * #f8f8f2a5
+" INFO * #f92672
+" INFO * #fd971f
+" INFO * #ffe792
+" INFO * italic
+" INFO * italic underline
+" INFO * stippled_underline
+" INFO * underline
+" INFO
+
+" http://docs.sublimetext.info/en/latest/reference/color_schemes.html
+
+" {{{ Settings
+
+    hi activeguide                                                  guifg=#9d550fb0
+    hi background                                                                   guibg=#272822
+    hi bracketcontentsforeground                                    guifg=#f8f8f2a5
+    hi bracketcontentsoptions                                                                       gui=underline
+    hi bracketsforeground                                           guifg=#f8f8f2a5
+    hi bracketsoptions                                                                              gui=underline
+    hi caret                                                        guifg=#f8f8f0
+    hi findhighlight                                                                guibg=#ffe792
+    hi findhighlightforeground                                      guifg=#000000
+    hi foreground                                                   guifg=#f8f8f2
+    hi invisibles                                                   guifg=#3b3a32
+    hi linehighlight                                                                guibg=#3e3d32
+    hi selection                                                                    guibg=#49483e
+    hi selectionborder                                              guifg=#222218
+    hi tagsoptions                                                                                  gui=stippled_underline
+
+" }}}
+
+hi comment                                                      guifg=#75715e
+hi constant.character                                           guifg=#ae81ff
+hi constant.language                                            guifg=#ae81ff
+hi constant.numeric                                             guifg=#ae81ff
+hi constant.numeric.line-number.find-in-files - match           guifg=#ae81ffa0
+hi constant.other                                               guifg=#ae81ff
+hi entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label) guifg=#a6e22e
+hi entity.name.filename                                         guifg=#e6db74
+hi entity.name.tag                                              guifg=#f92672
+hi entity.other.attribute-name                                  guifg=#a6e22e
+hi entity.other.inherited-class                                 guifg=#a6e22e                   gui=italic underline
+hi invalid                                                      guifg=#f8f8f0   guibg=#f92672
+hi invalid.deprecated                                           guifg=#f8f8f0   guibg=#ae81ff
+hi keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator) guifg=#f92672
+hi keyword.operator.word                                        guifg=#f92672
+hi markup.changed                                               guifg=#e6db74
+hi markup.deleted                                               guifg=#f92672
+hi markup.inserted                                              guifg=#a6e22e
+hi message.error                                                guifg=#f83333
+hi meta.diff                                                    guifg=#75715e
+hi meta.diff.header                                             guifg=#75715e
+hi meta.structure.dictionary.json string.quoted.double.json     guifg=#cfcfc2
+hi storage                                                      guifg=#f92672
+hi storage.type                                                 guifg=#66d9ef                   gui=italic
+hi string                                                       guifg=#e6db74
+hi string.unquoted.yaml                                         guifg=#f8f8f2
+hi support.class                                                guifg=#66d9ef                   gui=italic
+hi support.constant                                             guifg=#66d9ef
+hi support.function                                             guifg=#66d9ef
+hi support.type                                                 guifg=#66d9ef                   gui=italic
+hi variable.function                                            guifg=#66d9ef
+hi variable.language                                            guifg=#fd971f                   gui=italic
+hi variable.other.dollar.only.js                                guifg=#f92672
+hi variable.parameter - (source.c | source.c++ | source.objc | source.objc++) guifg=#fd971f                   gui=italic

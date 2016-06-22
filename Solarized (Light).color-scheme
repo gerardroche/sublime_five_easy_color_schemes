@@ -1,0 +1,262 @@
+" INFO
+" INFO *All lines prefixed with INFO are auto generated, any changes may
+" INFO  be overwritten.*
+" INFO
+" INFO List of colors and styles used:
+" INFO
+" INFO * #000000
+" INFO * #073642
+" INFO * #219186
+" INFO * #268bd2
+" INFO * #269186
+" INFO * #2aa198
+" INFO * #469186
+" INFO * #536871
+" INFO * #586e75
+" INFO * #5a74cf
+" INFO * #708284
+" INFO * #738a05
+" INFO * #748b00
+" INFO * #819090
+" INFO * #839496
+" INFO * #859900
+" INFO * #899090
+" INFO * #93a1a1
+" INFO * #a57705
+" INFO * #a57706
+" INFO * #a57800
+" INFO * #b58900
+" INFO * #b81d1c
+" INFO * #bb3700
+" INFO * #bd3613
+" INFO * #bd3800
+" INFO * #bf3904
+" INFO * #c60000
+" INFO * #cb4b16
+" INFO * #cd1e1d
+" INFO * #d01f1e
+" INFO * #d30102
+" INFO * #d31e1e
+" INFO * #d3201f
+" INFO * #d33682
+" INFO * #dc322f
+" INFO * #e0eddd
+" INFO * #eae3c9
+" INFO * #eae3ca
+" INFO * #eee8d5
+" INFO * #fdf6e3
+" INFO * bold
+" INFO * italic
+" INFO
+
+" http://docs.sublimetext.info/en/latest/reference/color_schemes.html
+
+" {{{ Settings
+
+    hi background                                                                   guibg=#fdf6e3
+    hi caret                                                        guifg=#000000
+    hi foreground                                                   guifg=#586e75
+    hi invisibles                                                   guifg=#eae3c9
+    hi linehighlight                                                                guibg=#eee8d5
+    hi selection                                                                    guibg=#073642
+
+" }}}
+
+hi comment                                                      guifg=#93a1a1
+hi comment.block meta.documentation.tag.param.javadoc keyword.other.documentation.param.javadoc guifg=#536871
+hi comment.line.number-sign.perl                                guifg=#586e75                   gui=italic
+hi comment.line.number-sign.shell                                                               gui=italic
+hi comment.line.percentage.tex                                                                  gui=italic
+hi constant.character                                           guifg=#cb4b16
+hi constant.character.escape.perl                               guifg=#dc322f
+hi constant.character.math.tex                                  guifg=#269186
+hi constant.language                                            guifg=#b58900
+hi constant.language.ruby                                       guifg=#269186
+hi constant.numeric                                             guifg=#d33682
+hi constant.numeric.c                                           guifg=#269186
+hi constant.numeric.js                                          guifg=#269186
+hi constant.numeric.php                                         guifg=#269186
+hi constant.numeric.ruby                                        guifg=#269186
+hi constant.other                                               guifg=#cb4b16
+hi constant.other.color.rgb-value.css                           guifg=#269186
+hi constant.other.general.math.tex                              guifg=#269186
+hi constant.other.symbol.ruby                                   guifg=#269186
+hi entity.name.class                                            guifg=#268bd2
+hi entity.name.function                                         guifg=#268bd2
+hi entity.name.function.c                                       guifg=#536871
+hi entity.name.function.js                                      guifg=#a57800
+hi entity.name.function.php                                     guifg=#899090
+hi entity.name.function.preprocessor.c                          guifg=#bb3700
+hi entity.name.function.ruby                                    guifg=#268bd2
+hi entity.name.tag                                              guifg=#268bd2                   gui=bold
+hi entity.name.tag.block.any.html                               guifg=#268bd2                   gui=bold
+hi entity.name.tag.doctype.html                                 guifg=#899090                   gui=italic
+hi entity.name.tag.script.html                                                                  gui=italic
+hi entity.name.type.class                                       guifg=#268bd2
+hi entity.name.type.class.php                                   guifg=#839496
+hi entity.name.type.class.ruby                                  guifg=#a57800
+hi entity.other.attribute-name                                  guifg=#93a1a1
+hi entity.other.attribute-name.class.css                        guifg=#268bd2
+hi entity.other.attribute-name.id.css                           guifg=#268bd2
+hi entity.other.attribute-name.pseudo-class.css                 guifg=#bd3800
+hi entity.other.attribute-name.pseudo-element.css               guifg=#bd3800
+hi keyword                                                      guifg=#859900
+hi keyword.control.class.ruby                                   guifg=#748b00
+hi keyword.control.def.ruby                                     guifg=#738a05                   gui=bold
+hi keyword.control.import.define.c                              guifg=#bb3700
+hi keyword.control.import.from.python                           guifg=#bd3800
+hi keyword.control.import.include.c                             guifg=#bb3700
+hi keyword.control.import.include.php                           guifg=#bd3800
+hi keyword.control.import.python                                guifg=#bd3800
+hi keyword.control.label.latex                                  guifg=#269186
+hi keyword.control.ref.latex                                    guifg=#269186
+hi keyword.operator.class                                       guifg=#536871
+hi keyword.operator.class.php                                   guifg=#a57800
+hi keyword.operator.comparison.perl                             guifg=#b58900
+hi keyword.operator.index-end.php                               guifg=#d31e1e
+hi keyword.operator.index-start.php                             guifg=#d31e1e
+hi keyword.other.import.java                                    guifg=#bd3800
+hi keyword.other.important.css                                  guifg=#d01f1e
+hi keyword.other.new                                            guifg=#d30102
+hi keyword.other.new.php                                        guifg=#cb4b16
+hi keyword.other.phpdoc                                         guifg=#899090
+hi keyword.other.special-method                                 guifg=#cb4b16
+hi keyword.other.unit.css                                       guifg=#269186
+hi markup.changed                                               guifg=#bf3904   guibg=#eae3ca
+hi markup.deleted                                               guifg=#d3201f   guibg=#eae3ca
+hi markup.inserted                                              guifg=#219186   guibg=#eae3ca
+hi meta.array.empty.php support.function.construct.php          guifg=#a57800
+hi meta.array.php                                               guifg=#536871
+hi meta.array.php support.function.construct.php                guifg=#a57800
+hi meta.brace.curly.js                                          guifg=#268bd2
+hi meta.brace.round                                             guifg=#93a1a1
+hi meta.brace.square.js                                         guifg=#268bd2
+hi meta.class.java storage.modifier.java                        guifg=#a57800
+hi meta.class.ruby                                              guifg=#748b00
+hi meta.diff                                                    guifg=#e0eddd   guibg=#a57706   gui=italic
+hi meta.diff.header                                             guifg=#e0eddd   guibg=#a57706   gui=italic
+hi meta.function-call.object.php                                guifg=#839496
+hi meta.function-call.php                                       guifg=#839496
+hi meta.function-call.static.php                                guifg=#839496
+hi meta.function.js                                             guifg=#a57800
+hi meta.function.method.with-arguments.ruby                     guifg=#708284
+hi meta.group.braces.tex                                        guifg=#a57705
+hi meta.other.inherited-class.php                               guifg=#536871
+hi meta.preprocessor                                            guifg=#b58900
+hi meta.preprocessor.c.include                                  guifg=#bb3700
+hi meta.preprocessor.c.include punctuation.definition.string.begin.c guifg=#269186
+hi meta.preprocessor.c.include punctuation.definition.string.end.c guifg=#269186
+hi meta.preprocessor.c.include string.quoted.other.lt-gt.include.c guifg=#269186
+hi meta.preprocessor.macro.c                                    guifg=#bb3700
+hi meta.property-name.css                                       guifg=#a57800
+hi meta.property-value.css                                      guifg=#269186
+hi meta.property-value.css constant.numeric.css                 guifg=#269186
+hi meta.scope.case-block.shell                                  guifg=#536871
+hi meta.scope.case-body.shell                                   guifg=#536871
+hi meta.scope.for-in-loop.shell                                 guifg=#536871
+hi meta.selector.css                                            guifg=#536871
+hi meta.tag.sgml.html                                           guifg=#899090                   gui=italic
+hi other.add                                                    guifg=#269186
+hi other.package.exclude                                        guifg=#d3201f
+hi other.remove                                                 guifg=#d3201f
+hi punctuation.definition.arguments.begin.latex                 guifg=#b81d1c
+hi punctuation.definition.arguments.end.latex                   guifg=#b81d1c
+hi punctuation.definition.arguments.latex                       guifg=#b81d1c
+hi punctuation.definition.array.begin                           guifg=#d31e1e
+hi punctuation.definition.array.end                             guifg=#d31e1e
+hi punctuation.definition.comment.tex                                                           gui=italic
+hi punctuation.definition.constant.math.tex                     guifg=#d01f1e
+hi punctuation.definition.logical-expression.shell              guifg=#cd1e1d
+hi punctuation.definition.parameters.begin.js                   guifg=#93a1a1
+hi punctuation.definition.parameters.end.js                     guifg=#93a1a1
+hi punctuation.definition.string.begin.c                        guifg=#269186
+hi punctuation.definition.string.begin.html                     guifg=#269186
+hi punctuation.definition.string.begin.perl                     guifg=#2aa198
+hi punctuation.definition.string.begin.ruby                     guifg=#d01f1e
+hi punctuation.definition.string.begin.shell                    guifg=#748b00
+hi punctuation.definition.string.begin.tex                      guifg=#d3201f
+hi punctuation.definition.string.end                            guifg=#c60000
+hi punctuation.definition.string.end.c                          guifg=#269186
+hi punctuation.definition.string.end.html                       guifg=#269186
+hi punctuation.definition.string.end.perl                       guifg=#2aa198
+hi punctuation.definition.string.end.ruby                       guifg=#d01f1e
+hi punctuation.definition.string.end.shell                      guifg=#748b00
+hi punctuation.definition.string.end.tex                        guifg=#d3201f
+hi punctuation.definition.tag.begin                             guifg=#93a1a1
+hi punctuation.definition.tag.end                               guifg=#93a1a1
+hi punctuation.definition.tag.html                              guifg=#93a1a1
+hi punctuation.definition.variable                              guifg=#859900
+hi punctuation.definition.variable.perl                         guifg=#b58900
+hi punctuation.definition.variable.ruby                         guifg=#268bd2
+hi punctuation.section.embedded.begin                           guifg=#d30102
+hi punctuation.section.embedded.end                             guifg=#d30102
+hi punctuation.section.embedded.ruby                            guifg=#d01f1e
+hi punctuation.section.group.tex                                guifg=#b81d1c
+hi punctuation.section.property-list.css                        guifg=#5a74cf
+hi punctuation.separator.continuation                           guifg=#d30102
+hi punctuation.separator.key-value.css                          guifg=#536871
+hi punctuation.terminator.rule.css                              guifg=#536871
+hi source.css                                                   guifg=#d01f1e
+hi source.css.embedded.html entity.name.tag.style.html                                          gui=italic
+hi source.css.embedded.html string.quoted.double.html           guifg=#269186
+hi source.java comment.block                                    guifg=#536871
+hi source.php.embedded.block.html                               guifg=#bd3613
+hi source.shell                                                 guifg=#268bd2
+hi storage                                                      guifg=#073642                   gui=bold
+hi storage.modifier.extends.php                                 guifg=#a57800
+hi storage.modifier.global.python                               guifg=#748b00
+hi storage.modifier.import.java                                 guifg=#586e75
+hi storage.type.c                                               guifg=#a57800
+hi storage.type.class.php                                       guifg=#a57800
+hi storage.type.class.python                                    guifg=#748b00
+hi storage.type.function.js                                     guifg=#268bd2
+hi storage.type.function.php                                    guifg=#bd3800
+hi storage.type.function.python                                 guifg=#748b00
+hi storage.type.js                                              guifg=#268bd2
+hi storage.type.php                                             guifg=#748b00
+hi string.other.math.tex                                        guifg=#a57800
+hi string.quoted.double                                         guifg=#269186
+hi string.quoted.double.doctype.identifiers-and-dtds.html       guifg=#899090                   gui=italic
+hi string.quoted.single                                         guifg=#269186
+hi string.regexp                                                guifg=#d30102
+hi support.class                                                guifg=#859900
+hi support.class.php                                            guifg=#536871
+hi support.class.ruby                                           guifg=#a57800
+hi support.constant.color                                       guifg=#269186
+hi support.function                                             guifg=#268bd2
+hi support.function.any-method.c                                guifg=#536871
+hi support.function.be.latex                                    guifg=#748b00
+hi support.function.builtin.shell                               guifg=#748b00
+hi support.function.c99.c                                       guifg=#536871
+hi support.function.construct                                   guifg=#d30102
+hi support.function.construct.php                               guifg=#748b00
+hi support.function.dom.js                                      guifg=#a57800
+hi support.function.general.tex                                 guifg=#269186
+hi support.function.perl                                        guifg=#859900
+hi support.function.section.latex                               guifg=#bd3800
+hi support.type                                                 guifg=#859900
+hi support.type.exception                                       guifg=#cb4b16
+hi support.type.exception.python                                guifg=#a57800
+hi support.type.property-name.css                               guifg=#a57800
+hi text.html.basic entity.other.attribute-name.html             guifg=#708284
+hi text.html.basic meta.tag.structure.any.html punctuation.definition.string.begin.html guifg=#269186
+hi text.html.markdown markup.raw.inline                         guifg=#269186
+hi text.html.markdown meta.dummy.line-break                     guifg=#e0eddd   guibg=#a57706
+hi text.html.ruby                                               guifg=#bd3800                   gui=bold
+hi text.html.ruby meta.tag.inline.any.html                      guifg=#819090
+hi text.html.ruby punctuation.definition.string.begin           guifg=#269186
+hi text.html.ruby punctuation.definition.string.end             guifg=#269186
+hi text.restructuredtext markup.raw                             guifg=#269186
+hi text.tex.latex constant.other.general.math.tex               guifg=#269186
+hi text.tex.latex constant.other.math.tex                       guifg=#269186
+hi variable.language                                            guifg=#268bd2
+hi variable.language.ruby                                       guifg=#469186
+hi variable.other                                               guifg=#268bd2
+hi variable.other.constant.ruby                                 guifg=#a57800
+hi variable.other.loop.shell                                    guifg=#536871
+hi variable.other.normal.shell                                  guifg=#bd3800
+hi variable.other.predefined.perl                               guifg=#b58900
+hi variable.other.property.php                                  guifg=#899090
+hi variable.other.readwrite.global.perl                         guifg=#b58900
+hi variable.parameter.definition.label.latex                    guifg=#d01f1e
+hi variable.parameter.function.latex                            guifg=#bd3800
