@@ -2,6 +2,6 @@
 
 ## unreleased
 
-* Added: Monokai
+* Added: Monokai (Dark)
 * Added: Solarized Dark
 * Added: Solarized Light
