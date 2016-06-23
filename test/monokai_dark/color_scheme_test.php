@@ -83,6 +83,8 @@ isset($variable);
     const USER_CONSTANT_2 = 1;
 //  ^ fg=#f92672 fs=
 //        ^ fg=#ae81ff fs=
+//                        ^ fg=#f92672 fs=
+//                          ^ fg=#ae81ff fs=
 
     new stdClass();
 //  ^ fg=#f92672 fs=
@@ -100,10 +102,14 @@ isset($variable);
 require_once 'somefile.php';
 // ^ fg=#f92672 fs=
 
-    if (true) {
+    if ($arg == 1) {
 //  ^ fg=#f92672 fs=
-} elseif (true) {
+//           ^^ fg=#f92672 fs=
+//              ^ fg=#ae81ff fs=
+} elseif ($arg === 1) {
 // ^ fg=#f92672 fs=
+//             ^^^ fg=#f92672 fs=
+//                 ^ fg=#ae81ff fs=
 } else {
 // ^ fg=#f92672 fs=
 }
@@ -112,6 +118,7 @@ require_once 'somefile.php';
 //  ^ fg=#f92672 fs=
     case 1:
 //  ^ fg=#f92672 fs=
+//       ^ fg=#ae81ff fs=
         break;
 //      ^ fg=#f92672 fs=
     default:
@@ -120,8 +127,11 @@ require_once 'somefile.php';
 //      ^ fg=#f92672 fs=
 }
 
-    while (false) {
+    while (1 >= 3) {
 //  ^ fg=#f92672 fs=
+//         ^ fg=#ae81ff fs=
+//           ^^ fg=#f92672 fs=
+//              ^ fg=#ae81ff fs=
 }
 
     do {
