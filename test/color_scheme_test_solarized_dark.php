@@ -19,7 +19,7 @@ COLOR TEST "Packages/five_easy_color_schemes/Solarized (Dark).tmTheme" "PHP"
 // #fdf6e3  | base3     |                     | Background Tone
 
       //
-// ^ fg=#839496 bg=#042029 fs=
+// ^ fg=#839496 bg=#002b36 fs=
 
     ?>
 //  ^^ fg=#d30102 fs=

@@ -19,7 +19,7 @@ COLOR TEST "Packages/five_easy_color_schemes/Solarized (Light).tmTheme" "PHP"
 // #fdf6e3  | base3     |                     | Background Tone
 
       //
-// ^ fg=#586e75 bg=#fdf6e3 fs=
+// ^ fg=#657b83 bg=#fdf6e3 fs=
 
     ?>
 //  ^^ fg=#d30102 fs=
@@ -189,11 +189,11 @@ function name() {}
 
 interface i_name_a {}
 // ^ fg=#073642 fs=bold
-//          ^ fg=#586e75 fs=
+//          ^ fg=#657b83 fs=
 
 interface i_name_b {
 // ^ fg=#073642 fs=bold
-//          ^ fg=#586e75 fs=
+//          ^ fg=#657b83 fs=
     public function a();
 //  ^ fg=#073642 fs=bold
 //              ^ fg=#bd3800 fs=
@@ -202,7 +202,7 @@ interface i_name_b {
 
 trait t_name_a {}
 // ^ fg=#073642 fs=bold
-//      ^ fg=#586e75 fs=
+//      ^ fg=#657b83 fs=
 
 class c_name_a {}
 // ^ fg=#a57800 fs=
@@ -211,12 +211,12 @@ class c_name_a {}
 class c_name_b extends c_name_a {}
 //      ^ fg=#839496 fs=
 //              ^ fg=#a57800 fs=
-//                      ^ fg=#586e75 fs=
+//                      ^ fg=#657b83 fs=
 
 class name_impl implements i_name_a {}
 //      ^ fg=#839496 fs=
 //              ^ fg=#073642 fs=bold
-//                          ^ fg=#586e75 fs=
+//                          ^ fg=#657b83 fs=
 
 final class name_b {}
 // ^ fg=#073642 fs=bold
