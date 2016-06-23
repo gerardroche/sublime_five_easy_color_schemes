@@ -184,7 +184,7 @@ use_function();
 // ^ fg=#839496 fs=
 
 function name() {}
-// ^ fg=#bd3800 fs=
+// ^ fg=#bd3800 fs=bold
 //          ^ fg=#899090 fs=
 
 interface i_name_a {}
@@ -196,7 +196,7 @@ interface i_name_b {
 //          ^ fg=#657b83 fs=
     public function a();
 //  ^ fg=#073642 fs=bold
-//              ^ fg=#bd3800 fs=
+//              ^ fg=#bd3800 fs=bold
 //                  ^ fg=#899090 fs=
 }
 
@@ -205,12 +205,12 @@ trait t_name_a {}
 //      ^ fg=#657b83 fs=
 
 class c_name_a {}
-// ^ fg=#a57800 fs=
+// ^ fg=#a57800 fs=bold
 //      ^ fg=#839496 fs=
 
 class c_name_b extends c_name_a {}
 //      ^ fg=#839496 fs=
-//              ^ fg=#a57800 fs=
+//              ^ fg=#a57800 fs=bold
 //                      ^ fg=#657b83 fs=
 
 class name_impl implements i_name_a {}
@@ -220,63 +220,63 @@ class name_impl implements i_name_a {}
 
 final class name_b {}
 // ^ fg=#073642 fs=bold
-//      ^ fg=#a57800 fs=
+//      ^ fg=#a57800 fs=bold
 //          ^ fg=#839496 fs=
 
 abstract class name_c {
 // ^ fg=#073642 fs=bold
-//          ^ fg=#a57800 fs=
+//          ^ fg=#a57800 fs=bold
 //              ^ fg=#839496 fs=
     public function a() {}
 //  ^ fg=#073642 fs=bold
-//              ^ fg=#bd3800 fs=
+//              ^ fg=#bd3800 fs=bold
 //                  ^ fg=#899090 fs=
     protected function b() {}
 //  ^ fg=#073642 fs=bold
-//              ^ fg=#bd3800 fs=
+//              ^ fg=#bd3800 fs=bold
 //                     ^ fg=#899090 fs=
     private function c() {}
 //  ^ fg=#073642 fs=bold
-//              ^ fg=#bd3800 fs=
+//              ^ fg=#bd3800 fs=bold
 //                   ^ fg=#899090 fs=
     public static function d() {}
 //  ^ fg=#073642 fs=bold
 //          ^ fg=#073642 fs=bold
-//                  ^ fg=#bd3800 fs=
+//                  ^ fg=#bd3800 fs=bold
 //                         ^ fg=#899090 fs=
     protected static function e() {}
 //  ^ fg=#073642 fs=bold
 //              ^ fg=#073642 fs=bold
-//                      ^ fg=#bd3800 fs=
+//                      ^ fg=#bd3800 fs=bold
 //                            ^ fg=#899090 fs=
     private static function f() {}
 //  ^ fg=#073642 fs=bold
 //          ^ fg=#073642 fs=bold
-//                      ^ fg=#bd3800 fs=
+//                      ^ fg=#bd3800 fs=bold
 //                          ^ fg=#899090 fs=
     abstract public function g();
 //  ^ fg=#073642 fs=bold
 //              ^ fg=#073642 fs=bold
-//                      ^ fg=#bd3800 fs=
+//                      ^ fg=#bd3800 fs=bold
 //                           ^ fg=#899090 fs=
     abstract protected function h();
 //  ^ fg=#073642 fs=bold
 //              ^ fg=#073642 fs=bold
-//                      ^ fg=#bd3800 fs=
+//                      ^ fg=#bd3800 fs=bold
 //                              ^ fg=#899090 fs=
     final public function i() {}
 //  ^ fg=#073642 fs=bold
 //          ^ fg=#073642 fs=bold
-//                  ^ fg=#bd3800 fs=
+//                  ^ fg=#bd3800 fs=bold
 //                        ^ fg=#899090 fs=
     final protected function j() {}
 //  ^ fg=#073642 fs=bold
 //          ^ fg=#073642 fs=bold
-//                  ^ fg=#bd3800 fs=
+//                  ^ fg=#bd3800 fs=bold
 //                           ^ fg=#899090 fs=
     final private function k() {}
 //  ^ fg=#073642 fs=bold
 //          ^ fg=#073642 fs=bold
-//                  ^ fg=#bd3800 fs=
+//                  ^ fg=#bd3800 fs=bold
 //                         ^ fg=#899090 fs=
 }

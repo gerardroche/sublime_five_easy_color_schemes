@@ -54,18 +54,24 @@ USER_CONSTANT;
 // ^^ fg=#f8f8f2 fs=
    $_SERVER['DOCUMENT_ROOT'];
 // ^^ fg=#f8f8f2 fs=
+//          ^ fg=#e6db74 fs=
    $_GET['id'];
 // ^^ fg=#f8f8f2 fs=
+//       ^ fg=#e6db74 fs=
    $_POST['id'];
 // ^^ fg=#f8f8f2 fs=
+//        ^^^^ fg=#e6db74 fs=
    $_FILES;
 // ^^ fg=#f8f8f2 fs=
    $_COOKIE['id'];
 // ^^ fg=#f8f8f2 fs=
+//          ^^^^ fg=#e6db74 fs=
    $_SESSION['id'];
 // ^^ fg=#f8f8f2 fs=
+//           ^^^^ fg=#e6db74 fs=
    $_REQUEST['id'];
 // ^^ fg=#f8f8f2 fs=
+//           ^^^^ fg=#e6db74 fs=
    $_ENV;
 // ^^ fg=#f8f8f2 fs=
    $variable;
@@ -73,9 +79,21 @@ USER_CONSTANT;
 
 echo 'str';
 // ^ fg=#66d9ef fs=
+//   ^^^^^ fg=#e6db74 fs=
+
+echo "str";
+// ^ fg=#66d9ef fs=
+//   ^^^^^ fg=#e6db74 fs=
+
+echo "str\t\ning";
+// ^ fg=#66d9ef fs=
+//   ^^^^ fg=#e6db74 fs=
+//       ^^^^ fg=#ae81ff fs=
+//           ^^^^ fg=#e6db74 fs=
 
 print('str');
 // ^ fg=#66d9ef fs=
+//    ^^^^^ fg=#e6db74 fs=
 
 isset($variable);
 // ^ fg=#66d9ef fs=

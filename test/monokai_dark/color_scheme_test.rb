@@ -15,7 +15,8 @@ class Greeter
   def salute
 #       ^ fg=#a6e22e fs=
     puts "Hello #{@name}!"
-#        ^^^^^^^^^^^^^^^^^ fg=#e6db74 fs=
+#        ^^^^^^ fg=#e6db74 fs=
+#               ^^^^^^^^^^ fg=#e6db74 fs=
   end
 end
 
