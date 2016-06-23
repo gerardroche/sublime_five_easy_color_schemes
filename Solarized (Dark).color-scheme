@@ -4,7 +4,8 @@
 " INFO
 " INFO List of colors and styles used:
 " INFO
-" INFO * #042029
+" INFO * #002b36
+" INFO * #073642
 " INFO * #0a2933
 " INFO * #219186
 " INFO * #268bd2
@@ -44,6 +45,7 @@
 " INFO * #dc322f
 " INFO * #e0eddd
 " INFO * #eae3ca
+" INFO * #eee8d5
 " INFO * bold
 " INFO * italic
 " INFO * undercurl
@@ -53,12 +55,12 @@
 
 " {{{ Settings
 
-    hi background                                                                   guibg=#042029
-    hi caret                                                        guifg=#819090
+    hi background                                                                   guibg=#002b36
+    hi caret                                                        guifg=#eee8d5
     hi foreground                                                   guifg=#839496
     hi invisibles                                                   guifg=#0a2933
-    hi linehighlight                                                                guibg=#0a2933
-    hi selection                                                                    guibg=#0a2933
+    hi linehighlight                                                                guibg=#073642
+    hi selection                                                                    guibg=#073642
 
 " }}}
 

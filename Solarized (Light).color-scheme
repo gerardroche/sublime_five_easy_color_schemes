@@ -4,7 +4,6 @@
 " INFO
 " INFO List of colors and styles used:
 " INFO
-" INFO * #000000
 " INFO * #073642
 " INFO * #219186
 " INFO * #268bd2
@@ -57,11 +56,11 @@
 " {{{ Settings
 
     hi background                                                                   guibg=#fdf6e3
-    hi caret                                                        guifg=#000000
-    hi foreground                                                   guifg=#586e75
+    hi caret                                                        guifg=#073642
+    hi foreground                                                   guifg=#657b83
     hi invisibles                                                   guifg=#eae3c9
     hi linehighlight                                                                guibg=#eee8d5
-    hi selection                                                                    guibg=#073642
+    hi selection                                                                    guibg=#eee8d5
 
 " }}}
 

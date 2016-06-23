@@ -10,35 +10,35 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#042029</string>
+                <string>#002b36</string>
                 <key>caret</key>
-                <string>#819090</string>
+                <string>#eee8d5</string>
                 <key>foreground</key>
                 <string>#839496</string>
                 <key>invisibles</key>
-                <string>#0A2933</string>
+                <string>#0a2933</string>
                 <key>lineHighlight</key>
-                <string>#0A2933</string>
+                <string>#073642</string>
                 <key>selection</key>
-                <string>#0A2933</string>
+                <string>#073642</string>
 
                 <key>popupCss</key>
                 <string><![CDATA[
                     html {
-                        background-color: #063342;
+                        background-color: #002b36;
                         color: #839496;
                     }
                     a {
-                        color: #268BD2;
+                        color: #268bd2;
                     }
                     .error, .deleted {
-                        color: #D33682;
+                        color: #dc322f;
                     }
                     .success, .inserted {
-                        color: #738A05;
+                        color: #859900;
                     }
                     .warning, .modified {
-                        color: #B58900;
+                        color: #b58900;
                     }
                 ]]></string>
             </dict>

@@ -1,26 +1,22 @@
 COLOR TEST "Packages/five_easy_color_schemes/Solarized (Dark).tmTheme" "PHP"
 <?php
 
-// ----- Background Tones ----------------------------------
-//                           base03      #002b36 > 0, 43, 54
-//                           base02      #073642 > 7, 54, 66
-// ----- Content Tones -------------------------------------
-//                           base01      #586e75
-//                           base00      #657b83
-//                           base0       #839496
-//                           base1       #93a1a1
-// ----- Background Tones ----------------------------------
-//                           base2       #657b83
-//                           base3       #fdf6e3
-// ----- Accents -------------------------------------------
-//                           yellow      #b58900
-//                           orange      #cb4b16 > 203, 75, 22
-//                           red         #dc322f
-//                           magenta     #d33682
-//                           violet      #6c71c4
-//                           blue        #268bd2 > 38, 139, 210
-//                           cyan        #2aa198
-//                           green       #859900 > 133, 153, 0
+// #002b36  | base03    | 0, 43, 54           | Background Tone
+// #073642  | base02    | 7, 54, 66           | Background Tone
+// #268bd2  | blue      | 38, 139, 210        | Accent
+// #2aa198  | cyan      |                     | Accent
+// #586e75  | base01    |                     | Content Tones
+// #657b83  | base00    |                     | Content Tones
+// #6c71c4  | violet    |                     | Accent
+// #839496  | base0     |                     | Content Tones
+// #859900  | green     | 133, 153, 0         | Accent
+// #93a1a1  | base1     |                     | Content Tones
+// #b58900  | yellow    |                     | Accent
+// #cb4b16  | orange    | 203, 75, 22         | Accent
+// #d33682  | magenta   |                     | Accent
+// #dc322f  | red       |                     | Accent
+// #eee8d5  | base2     |                     | Background Tone
+// #fdf6e3  | base3     |                     | Background Tone
 
       //
 // ^ fg=#839496 bg=#042029 fs=
