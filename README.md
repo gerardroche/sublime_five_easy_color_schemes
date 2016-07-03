@@ -16,8 +16,27 @@ The goal is to group a maximum of five schemes, each with a light and dark mode,
 
 ## Features
 
-* Supports [GitGutter](https://packagecontrol.io/packages/GitGutter)
-* Supports [SublimeLinter](https://packagecontrol.io/packages/SummitLinter)
+* A dark and light mode for each scheme
+* Supports various plugins including [GitGutter](https://packagecontrol.io/packages/GitGutter) and [SublimeLinter](https://packagecontrol.io/packages/SummitLinter).
+* An extensive test suite
+
+## Palettes
+
+### Solarized Light
+
+![Solarized Light Palette](solarized_light_color_palette.png)
+
+See [altercation/solarized](http://ethanschoonover.com/solarized).
+
+### Solarized Dark
+
+![Solarized Dark Palette](solarized_dark_color_palette.png)
+
+See [altercation/solarized](http://ethanschoonover.com/solarized).
+
+### Monokai Dark
+
+![Monokai Dark Palette](monokai_dark_color_palette.png)
 
 ## Installation
 

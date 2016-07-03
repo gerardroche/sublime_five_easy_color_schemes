@@ -1,6 +1,6 @@
 # gerardroche/sublime_five_easy_color_schemes
 
-## Unreleased
+## 0.4.0
 
 * Fixed: Monokai
 * Fixed: Solarized
