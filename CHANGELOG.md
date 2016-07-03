@@ -7,8 +7,8 @@
 
 ## 0.2.0
 
-* Added: [GitGutter](https://packagecontrol.io/packages/GitGutter) support
-* Added: [SublimeLinter](https://packagecontrol.io/packages/SummitLinter) support
+* Added: Support for [GitGutter](https://packagecontrol.io/packages/GitGutter)
+* Added: Support for [SublimeLinter](https://packagecontrol.io/packages/SummitLinter)
 
 ## 0.1.0
 
