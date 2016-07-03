@@ -42,7 +42,6 @@
 
                 <key>tagsOptions</key>
                 <string>stippled_underline</string>
-
                 <key>popupCss</key>
                 <string><![CDATA[
                     html {
@@ -72,7 +71,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#75715E</string>
+                <string>#75715e</string>
             </dict>
         </dict>
         <dict>
@@ -83,7 +82,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E6DB74</string>
+                <string>#e6db74</string>
             </dict>
         </dict>
         <dict>
@@ -94,7 +93,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#AE81FF</string>
+                <string>#ae81ff</string>
             </dict>
         </dict>
         <dict>
@@ -105,7 +104,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#AE81FF</string>
+                <string>#ae81ff</string>
             </dict>
         </dict>
         <dict>
@@ -116,7 +115,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#AE81FF</string>
+                <string>#ae81ff</string>
             </dict>
         </dict>
         <dict>
@@ -138,7 +137,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F92672</string>
+                <string>#f92672</string>
             </dict>
         </dict>
         <dict>
@@ -149,7 +148,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F92672</string>
+                <string>#f92672</string>
             </dict>
         </dict>
         <dict>
@@ -162,7 +161,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#F92672</string>
+                <string>#f92672</string>
             </dict>
         </dict>
         <dict>
@@ -175,7 +174,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#66D9EF</string>
+                <string>#66d9ef</string>
             </dict>
         </dict>
         <dict>
@@ -188,7 +187,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#A6E22E</string>
+                <string>#a6e22e</string>
             </dict>
         </dict>
         <dict>
@@ -201,7 +200,7 @@
                 <key>fontStyle</key>
                 <string>italic underline</string>
                 <key>foreground</key>
-                <string>#A6E22E</string>
+                <string>#a6e22e</string>
             </dict>
         </dict>
         <dict>
@@ -214,7 +213,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#FD971F</string>
+                <string>#fd971f</string>
             </dict>
         </dict>
         <dict>
@@ -227,7 +226,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#FD971F</string>
+                <string>#fd971f</string>
             </dict>
         </dict>
         <dict>
@@ -240,7 +239,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#F92672</string>
+                <string>#f92672</string>
             </dict>
         </dict>
         <dict>
@@ -253,7 +252,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#A6E22E</string>
+                <string>#a6e22e</string>
             </dict>
         </dict>
         <dict>
@@ -266,7 +265,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#66D9EF</string>
+                <string>#66d9ef</string>
             </dict>
         </dict>
         <dict>
@@ -279,7 +278,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#66D9EF</string>
+                <string>#66d9ef</string>
             </dict>
         </dict>
         <dict>
@@ -305,7 +304,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#66D9EF</string>
+                <string>#66d9ef</string>
             </dict>
         </dict>
         <dict>
@@ -327,7 +326,7 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#F92672</string>
+                <string>#f92672</string>
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
@@ -342,7 +341,7 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#AE81FF</string>
+                <string>#ae81ff</string>
                 <key>foreground</key>
                 <string>#F8F8F0</string>
             </dict>
@@ -355,7 +354,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#CFCFC2</string>
+                <string>#cfcfc2</string>
             </dict>
         </dict>
         <dict>
@@ -366,7 +365,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F8F8F2</string>
+                <string>#f8f8f2</string>
             </dict>
         </dict>
         <dict>
@@ -377,7 +376,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#75715E</string>
+                <string>#75715e</string>
             </dict>
         </dict>
         <dict>
