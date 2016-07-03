@@ -4,7 +4,7 @@ COLOR TEST "Packages/five_easy_color_schemes/Monokai (Dark).tmTheme" "Python"
 # ^ fg=#f8f8f2 bg=#272822 fs=
 
 @requires_authorization
-# ^ fg=#a6e22e fs=
+# ^ fg=#f8f8f2 fs=
 def somefunc(param1='', param2=0):
 # ^ fg=#66d9ef fs=italic
 #       ^ fg=#a6e22e fs=

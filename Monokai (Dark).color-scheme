@@ -1,60 +1,43 @@
 " INFO *Lines prefixed INFO are auto generated, changes may be overwritten.*
 " INFO
-" INFO *All lines prefixed with INFO are auto generated, any changes may
-" INFO  be overwritten.*
+" INFO Colors (14) and styles used:
 " INFO
-" INFO List of colors and styles used:
-" INFO
-" INFO * #000000
-" INFO * #009900
-" INFO * #1e0010
-" INFO * #222218
 " INFO * #272822
-" INFO * #3b3a32
 " INFO * #3e3d32
-" INFO * #49483e
-" INFO * #565656
 " INFO * #66d9ef
-" INFO * #7070f0
 " INFO * #75715e
-" INFO * #9d550fb0
 " INFO * #a6e22e
 " INFO * #ae81ff
 " INFO * #ae81ffa0
-" INFO * #bbbb00
 " INFO * #cfcfc2
 " INFO * #e6db74
-" INFO * #f83333
-" INFO * #f8f8f0
 " INFO * #f8f8f2
 " INFO * #f8f8f2a5
 " INFO * #f92672
 " INFO * #fd971f
-" INFO * #ff0000
-" INFO * #ff2222
 " INFO * #ffe792
+" INFO * bold
 " INFO * italic
-" INFO * italic underline
 " INFO * stippled_underline
-" INFO * undercurl
 " INFO * underline
 
 " {{{ Settings
 
-    hi activeguide                                                  guifg=#9d550fb0
+    hi activeguide                                                  guifg=#a6e22e
     hi background                                                                   guibg=#272822
     hi bracketcontentsforeground                                    guifg=#f8f8f2a5
     hi bracketcontentsoptions                                                                       gui=underline
     hi bracketsforeground                                           guifg=#f8f8f2a5
     hi bracketsoptions                                                                              gui=underline
-    hi caret                                                        guifg=#f8f8f0
+    hi caret                                                        guifg=#f8f8f2
     hi findhighlight                                                                guibg=#ffe792
-    hi findhighlightforeground                                      guifg=#000000
+    hi findhighlightforeground                                      guifg=#272822
     hi foreground                                                   guifg=#f8f8f2
-    hi invisibles                                                   guifg=#3b3a32
+    hi guide                                                        guifg=#3e3d32
     hi linehighlight                                                                guibg=#3e3d32
-    hi selection                                                                    guibg=#49483e
-    hi selectionborder                                              guifg=#222218
+    hi selection                                                                    guibg=#3e3d32
+    hi selectionborder                                              guifg=#3e3d32
+    hi stackguide                                                   guifg=#3e3d32
     hi tagsoptions                                                                                  gui=stippled_underline
 
 " }}}
@@ -68,21 +51,40 @@ hi constant.other                                               guifg=#ae81ff
 hi entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label) guifg=#a6e22e
 hi entity.name.filename                                         guifg=#e6db74
 hi entity.name.tag                                              guifg=#f92672
+hi entity.other                                                 guifg=#a6e22e                   gui=italic
 hi entity.other.attribute-name                                  guifg=#a6e22e
-hi entity.other.inherited-class                                 guifg=#a6e22e                   gui=italic underline
-hi invalid                                                      guifg=#f8f8f0   guibg=#f92672
-hi invalid.deprecated                                           guifg=#f8f8f0   guibg=#ae81ff
+hi gutter.linter.mark                                           guifg=#f8f8f2   guibg=#f92672
+hi gutter.scm.added                                             guifg=#a6e22e
+hi gutter.scm.changed                                           guifg=#fd971f
+hi gutter.scm.deleted                                           guifg=#f92672
+hi gutter.scm.ignored                                           guifg=#75715e
+hi gutter.scm.untracked                                         guifg=#75715e
+hi invalid                                                      guifg=#f8f8f2   guibg=#f92672
+hi invalid.deprecated                                           guifg=#f8f8f2   guibg=#ae81ff
 hi keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator) guifg=#f92672
 hi keyword.operator.word                                        guifg=#f92672
-hi markup.changed                                               guifg=#e6db74
-hi markup.changed.git_gutter                                    guifg=#bbbb00
+hi linter.error                                                 guifg=#f92672
+hi linter.warning                                               guifg=#fd971f
+hi markup.bold                                                                                  gui=bold
+hi markup.changed                                               guifg=#fd971f
+hi markup.changed.git_gutter                                    guifg=#fd971f
 hi markup.deleted                                               guifg=#f92672
-hi markup.deleted.git_gutter                                    guifg=#ff2222
-hi markup.ignored.git_gutter                                    guifg=#565656
+hi markup.deleted.git_gutter                                    guifg=#f92672
+hi markup.heading                                               guifg=#fd971f                   gui=bold
+hi markup.ignored                                               guifg=#75715e
+hi markup.ignored.git_gutter                                    guifg=#75715e
 hi markup.inserted                                              guifg=#a6e22e
-hi markup.inserted.git_gutter                                   guifg=#009900
-hi markup.untracked.git_gutter                                  guifg=#565656
-hi message.error                                                guifg=#f83333
+hi markup.inserted.git_gutter                                   guifg=#a6e22e
+hi markup.italic                                                                                gui=italic
+hi markup.quote                                                                 guibg=#3e3d32   gui=italic
+hi markup.quote punctuation.definition.blockquote               guifg=#75715e
+hi markup.raw                                                                   guibg=#3e3d32   gui=italic
+hi markup.raw punctuation.definition.raw                        guifg=#75715e
+hi markup.underline                                                                             gui=underline
+hi markup.underline.link                                        guifg=#66d9ef                   gui=underline
+hi markup.untracked                                             guifg=#75715e
+hi markup.untracked.git_gutter                                  guifg=#75715e
+hi message.error                                                guifg=#f92672
 hi meta.diff                                                    guifg=#75715e
 hi meta.diff.header                                             guifg=#75715e
 hi meta.structure.dictionary.json string.quoted.double.json     guifg=#cfcfc2
@@ -90,11 +92,12 @@ hi storage                                                      guifg=#f92672
 hi storage.type                                                 guifg=#66d9ef                   gui=italic
 hi string                                                       guifg=#e6db74
 hi string.unquoted.yaml                                         guifg=#f8f8f2
-hi sublimelinter.gutter-mark                                    guifg=#e6db74   guibg=#1e0010
-hi sublimelinter.mark.error                                     guifg=#ff0000                   gui=undercurl
-hi sublimelinter.mark.warning                                   guifg=#7070f0                   gui=undercurl
+hi sublimelinter.gutter-mark                                    guifg=#f8f8f2   guibg=#f92672
+hi sublimelinter.mark.error                                     guifg=#f92672
+hi sublimelinter.mark.warning                                   guifg=#fd971f
 hi support.class                                                guifg=#66d9ef                   gui=italic
 hi support.constant                                             guifg=#66d9ef
+hi support.constant.property-value                              guifg=#ae81ff
 hi support.function                                             guifg=#66d9ef
 hi support.type                                                 guifg=#66d9ef                   gui=italic
 hi variable.function                                            guifg=#66d9ef

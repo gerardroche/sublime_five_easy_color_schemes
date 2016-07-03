@@ -9,37 +9,36 @@
         <dict>
             <key>settings</key>
             <dict>
+                <key>activeGuide</key>
+                <string>#a6e22e</string>
                 <key>background</key>
                 <string>#272822</string>
-                <key>caret</key>
-                <string>#f8f8f0</string>
-                <key>foreground</key>
-                <string>#f8f8f2</string>
-                <key>invisibles</key>
-                <string>#3b3a32</string>
-                <key>lineHighlight</key>
-                <string>#3e3d32</string>
-                <key>selection</key>
-                <string>#49483e</string>
-                <key>findHighlight</key>
-                <string>#ffe792</string>
-                <key>findHighlightForeground</key>
-                <string>#000000</string>
-                <key>selectionBorder</key>
-                <string>#222218</string>
-                <key>activeGuide</key>
-                <string>#9d550fb0</string>
-
-                <key>bracketsForeground</key>
-                <string>#f8f8f2a5</string>
-                <key>bracketsOptions</key>
-                <string>underline</string>
-
                 <key>bracketContentsForeground</key>
                 <string>#f8f8f2a5</string>
                 <key>bracketContentsOptions</key>
                 <string>underline</string>
-
+                <key>bracketsForeground</key>
+                <string>#f8f8f2a5</string>
+                <key>bracketsOptions</key>
+                <string>underline</string>
+                <key>caret</key>
+                <string>#f8f8f2</string>
+                <key>findHighlight</key>
+                <string>#ffe792</string>
+                <key>findHighlightForeground</key>
+                <string>#272822</string>
+                <key>foreground</key>
+                <string>#f8f8f2</string>
+                <key>guide</key>
+                <string>#3e3d32</string>
+                <key>lineHighlight</key>
+                <string>#3e3d32</string>
+                <key>selection</key>
+                <string>#3e3d32</string>
+                <key>selectionBorder</key>
+                <string>#3e3d32</string>
+                <key>stackGuide</key>
+                <string>#3e3d32</string>
                 <key>tagsOptions</key>
                 <string>stippled_underline</string>
                 <key>popupCss</key>
@@ -52,7 +51,7 @@
                         color: #66d9ef;
                     }
                     .error, .deleted {
-                        color: #f83333;
+                        color: #f92672;
                     }
                     .success, .inserted {
                         color: #a6e22e;
@@ -191,14 +190,12 @@
             </dict>
         </dict>
         <dict>
-            <key>name</key>
-            <string>Inherited class</string>
             <key>scope</key>
-            <string>entity.other.inherited-class</string>
+            <string>entity.other</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>italic underline</string>
+                <string>italic</string>
                 <key>foreground</key>
                 <string>#a6e22e</string>
             </dict>
@@ -291,7 +288,18 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#66D9EF</string>
+                <string>#66d9ef</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>support.constant.property-value</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#ae81ff</string>
             </dict>
         </dict>
         <dict>
@@ -330,7 +338,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#F8F8F0</string>
+                <string>#f8f8f2</string>
             </dict>
         </dict>
         <dict>
@@ -343,7 +351,7 @@
                 <key>background</key>
                 <string>#ae81ff</string>
                 <key>foreground</key>
-                <string>#F8F8F0</string>
+                <string>#f8f8f2</string>
             </dict>
         </dict>
         <dict>
@@ -380,96 +388,90 @@
             </dict>
         </dict>
         <dict>
-            <key>name</key>
-            <string>diff.deleted</string>
             <key>scope</key>
-            <string>markup.deleted</string>
+            <string>markup.heading</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F92672</string>
+                <string>#fd971f</string>
+                <key>fontStyle</key>
+                <string>bold</string>
             </dict>
         </dict>
         <dict>
-            <key>name</key>
-            <string>diff.inserted</string>
+            <key>scope</key>
+            <string>markup.italic</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.bold</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.underline</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>underline</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.quote, markup.raw</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#3e3d32</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.quote punctuation.definition.blockquote, markup.raw punctuation.definition.raw</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#75715e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.underline.link</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66d9ef</string>
+                <key>fontStyle</key>
+                <string>underline</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>gutter.scm.added</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a6e22e</string>
+            </dict>
+        </dict>
+        <dict>
             <key>scope</key>
             <string>markup.inserted</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#A6E22E</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>diff.changed</string>
-            <key>scope</key>
-            <string>markup.changed</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#E6DB74</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>constant.numeric.line-number.find-in-files - match</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#AE81FFA0</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>entity.name.filename</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#E6DB74</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>message.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#F83333</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#e6db74</string>
-                <key>background</key>
-                <string>#1e0010</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>sublimelinter.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#ff0000</string>
-                <key>fontStyle</key>
-                <string>undercurl</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#7070f0</string>
-                <key>fontStyle</key>
-                <string>undercurl</string>
+                <string>#a6e22e</string>
             </dict>
         </dict>
         <dict>
@@ -478,7 +480,25 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#009900</string>
+                <string>#a6e22e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>gutter.scm.changed</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fd971f</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.changed</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fd971f</string>
             </dict>
         </dict>
         <dict>
@@ -487,7 +507,25 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#bbbb00</string>
+                <string>#fd971f</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>gutter.scm.deleted</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.deleted</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
             </dict>
         </dict>
         <dict>
@@ -496,7 +534,25 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#ff2222</string>
+                <string>#f92672</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>gutter.scm.ignored</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#75715e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.ignored</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#75715e</string>
             </dict>
         </dict>
         <dict>
@@ -505,7 +561,25 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#565656</string>
+                <string>#75715e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>gutter.scm.untracked</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#75715e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.untracked</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#75715e</string>
             </dict>
         </dict>
         <dict>
@@ -514,7 +588,92 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#565656</string>
+                <string>#75715e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>constant.numeric.line-number.find-in-files - match</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ae81ffa0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>entity.name.filename</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e6db74</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>message.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>gutter.linter.mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f8f8f2</string>
+                <key>background</key>
+                <string>#f92672</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f8f8f2</string>
+                <key>background</key>
+                <string>#f92672</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>linter.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f92672</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>linter.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fd971f</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fd971f</string>
             </dict>
         </dict>
     </array>
