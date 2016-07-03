@@ -1880,9 +1880,6 @@
                 <string>#DC322F</string>
             </dict>
         </dict>
-
-        <!-- SublimeLinter -->
-
         <dict>
             <key>scope</key>
             <string>sublimelinter.gutter-mark</string>
@@ -1916,10 +1913,6 @@
                 <string>undercurl</string>
             </dict>
         </dict>
-
-
-        <!-- GitGutter -->
-
         <dict>
             <key>scope</key>
             <string>markup.inserted.git_gutter</string>
@@ -1965,7 +1958,6 @@
                 <string>#657b83</string>
             </dict>
         </dict>
-
     </array>
 </dict>
 </plist>

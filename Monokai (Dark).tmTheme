@@ -97,7 +97,6 @@
                 <string>#AE81FF</string>
             </dict>
         </dict>
-
         <dict>
             <key>name</key>
             <string>Built-in constant</string>
@@ -370,7 +369,6 @@
                 <string>#F8F8F2</string>
             </dict>
         </dict>
-
         <dict>
             <key>name</key>
             <string>diff.header</string>
@@ -415,7 +413,6 @@
                 <string>#E6DB74</string>
             </dict>
         </dict>
-
         <dict>
             <key>scope</key>
             <string>constant.numeric.line-number.find-in-files - match</string>
@@ -434,7 +431,6 @@
                 <string>#E6DB74</string>
             </dict>
         </dict>
-
         <dict>
             <key>scope</key>
             <string>message.error</string>
@@ -444,9 +440,6 @@
                 <string>#F83333</string>
             </dict>
         </dict>
-
-        <!-- SublimeLinter -->
-
         <dict>
             <key>scope</key>
             <string>sublimelinter.gutter-mark</string>
@@ -480,9 +473,6 @@
                 <string>undercurl</string>
             </dict>
         </dict>
-
-        <!-- GitGutter -->
-
         <dict>
             <key>scope</key>
             <string>markup.inserted.git_gutter</string>
@@ -528,7 +518,6 @@
                 <string>#565656</string>
             </dict>
         </dict>
-
     </array>
 </dict>
 </plist>

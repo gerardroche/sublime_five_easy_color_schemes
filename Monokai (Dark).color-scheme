@@ -1,3 +1,4 @@
+" INFO *Lines prefixed INFO are auto generated, changes may be overwritten.*
 " INFO
 " INFO *All lines prefixed with INFO are auto generated, any changes may
 " INFO  be overwritten.*
@@ -37,9 +38,6 @@
 " INFO * stippled_underline
 " INFO * undercurl
 " INFO * underline
-" INFO
-
-" http://docs.sublimetext.info/en/latest/reference/color_schemes.html
 
 " {{{ Settings
 

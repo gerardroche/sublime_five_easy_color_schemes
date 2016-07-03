@@ -21,7 +21,6 @@
                 <string>#073642</string>
                 <key>selection</key>
                 <string>#073642</string>
-
                 <key>popupCss</key>
                 <string><![CDATA[
                     html {
@@ -1902,9 +1901,6 @@
                 <string>#DC322F</string>
             </dict>
         </dict>
-
-        <!-- SublimeLinter -->
-
         <dict>
             <key>scope</key>
             <string>sublimelinter.gutter-mark</string>
@@ -1987,7 +1983,6 @@
                 <string>#657b83</string>
             </dict>
         </dict>
-
     </array>
 </dict>
 </plist>
