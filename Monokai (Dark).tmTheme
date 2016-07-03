@@ -9,38 +9,22 @@
         <dict>
             <key>settings</key>
             <dict>
-                <key>activeGuide</key>
-                <string>#a6e22e</string>
-                <key>background</key>
-                <string>#272822</string>
-                <key>bracketContentsForeground</key>
-                <string>#f8f8f2a5</string>
-                <key>bracketContentsOptions</key>
-                <string>underline</string>
-                <key>bracketsForeground</key>
-                <string>#f8f8f2a5</string>
-                <key>bracketsOptions</key>
-                <string>underline</string>
-                <key>caret</key>
-                <string>#f8f8f2</string>
-                <key>findHighlight</key>
-                <string>#ffe792</string>
-                <key>findHighlightForeground</key>
-                <string>#272822</string>
-                <key>foreground</key>
-                <string>#f8f8f2</string>
-                <key>guide</key>
-                <string>#3e3d32</string>
-                <key>lineHighlight</key>
-                <string>#3e3d32</string>
-                <key>selection</key>
-                <string>#3e3d32</string>
-                <key>selectionBorder</key>
-                <string>#3e3d32</string>
-                <key>stackGuide</key>
-                <string>#3e3d32</string>
-                <key>tagsOptions</key>
-                <string>stippled_underline</string>
+                <key>activeGuide</key>                  <string>#a6e22e</string>
+                <key>background</key>                   <string>#272822</string>
+                <key>bracketContentsForeground</key>    <string>#f8f8f2a5</string>
+                <key>bracketContentsOptions</key>       <string>underline</string>
+                <key>bracketsForeground</key>           <string>#f8f8f2a5</string>
+                <key>bracketsOptions</key>              <string>underline</string>
+                <key>caret</key>                        <string>#f8f8f2</string>
+                <key>findHighlight</key>                <string>#ffe792</string>
+                <key>findHighlightForeground</key>      <string>#272822</string>
+                <key>foreground</key>                   <string>#f8f8f2</string>
+                <key>guide</key>                        <string>#3e3d32</string>
+                <key>lineHighlight</key>                <string>#3e3d32</string>
+                <key>selection</key>                    <string>#3e3d32</string>
+                <key>selectionBorder</key>              <string>#3e3d32</string>
+                <key>stackGuide</key>                   <string>#3e3d32</string>
+                <key>tagsOptions</key>                  <string>stippled_underline</string>
                 <key>popupCss</key>
                 <string><![CDATA[
                     html {

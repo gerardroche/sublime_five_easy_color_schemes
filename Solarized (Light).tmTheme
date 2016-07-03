@@ -9,16 +9,11 @@
         <dict>
             <key>settings</key>
             <dict>
-                <key>background</key>
-                <string>#fdf6e3</string>
-                <key>caret</key>
-                <string>#073642</string>
-                <key>foreground</key>
-                <string>#657b83</string>
-                <key>lineHighlight</key>
-                <string>#eee8d5</string>
-                <key>selection</key>
-                <string>#fdf6e3</string>
+                <key>background</key>           <string>#fdf6e3</string>
+                <key>caret</key>                <string>#073642</string>
+                <key>foreground</key>           <string>#657b83</string>
+                <key>lineHighlight</key>        <string>#eee8d5</string>
+                <key>selection</key>            <string>#fdf6e3</string>
                 <key>popupCss</key>
                 <string><![CDATA[
                     html {
