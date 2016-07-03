@@ -1,5 +1,9 @@
 # gerardroche/sublime_five_easy_color_schemes
 
+## 0.4.3
+
+* Fixed: guides and highlight regions
+
 ## 0.4.2
 
 * Fixed: gutter and selections

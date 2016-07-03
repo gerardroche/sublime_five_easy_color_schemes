@@ -1,7 +1,8 @@
 " INFO *Lines prefixed INFO are auto generated, changes may be overwritten.*
 " INFO
-" INFO Colors (15) and styles used:
+" INFO Colors (16) and styles used:
 " INFO
+" INFO * #002b36
 " INFO * #073642
 " INFO * #cb4b16
 " INFO * #859900
@@ -23,11 +24,22 @@
 
 " {{{ Settings
 
+    hi activeguide                                                  guifg=#eee8d5
     hi background                                                                   guibg=#fdf6e3
-    hi caret                                                        guifg=#073642
+    hi caret                                                        guifg=#002b36
+    hi findhighlight                                                                guibg=#cb4b16
+    hi findhighlightforeground                                      guifg=#fdf6e3
     hi foreground                                                   guifg=#657b83
+    hi guide                                                        guifg=#eee8d5
+    hi gutter                                                                       guibg=#eee8d5
+    hi gutterforeground                                             guifg=#93a1a1
+    hi highlight                                                                    guibg=#b58900
+    hi highlightforeground                                          guifg=#fdf6e3
     hi linehighlight                                                                guibg=#eee8d5
-    hi selection                                                                    guibg=#fdf6e3
+    hi selection                                                                    guibg=#93a1a1
+    hi selectionborder                                              guifg=#93a1a1
+    hi selectionforeground                                          guifg=#fdf6e3
+    hi stackguide                                                   guifg=#eee8d5
 
 " }}}
 

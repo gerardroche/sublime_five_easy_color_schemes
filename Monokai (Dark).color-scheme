@@ -1,6 +1,6 @@
 " INFO *Lines prefixed INFO are auto generated, changes may be overwritten.*
 " INFO
-" INFO Colors (14) and styles used:
+" INFO Colors (13) and styles used:
 " INFO
 " INFO * #272822
 " INFO * #3e3d32
@@ -13,7 +13,6 @@
 " INFO * #ae81ffa0
 " INFO * #e6db74
 " INFO * #cfcfc2
-" INFO * #ffe792
 " INFO * #f8f8f2a5
 " INFO * #f8f8f2
 " INFO * bold
@@ -30,14 +29,20 @@
     hi bracketsforeground                                           guifg=#f8f8f2a5
     hi bracketsoptions                                                                              gui=underline
     hi caret                                                        guifg=#f8f8f2
-    hi findhighlight                                                                guibg=#ffe792
+    hi findhighlight                                                                guibg=#fd971f
     hi findhighlightforeground                                      guifg=#272822
     hi foreground                                                   guifg=#f8f8f2
     hi guide                                                        guifg=#3e3d32
+    hi gutter                                                                       guibg=#272822
+    hi gutterforeground                                             guifg=#75715e
+    hi highlight                                                                    guibg=#e6db74
+    hi highlightforeground                                          guifg=#272822
     hi linehighlight                                                                guibg=#3e3d32
-    hi selection                                                                    guibg=#3e3d32
-    hi selectionborder                                              guifg=#3e3d32
+    hi selection                                                                    guibg=#75715e
+    hi selectionborder                                              guifg=#75715e
+    hi selectionforeground                                          guifg=#272822
     hi stackguide                                                   guifg=#3e3d32
+    hi tagsforeground                                               guifg=#f8f8f2a5
     hi tagsoptions                                                                                  gui=stippled_underline
 
 " }}}

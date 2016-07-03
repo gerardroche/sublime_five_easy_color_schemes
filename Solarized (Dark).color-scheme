@@ -23,11 +23,22 @@
 
 " {{{ Settings
 
+    hi activeguide                                                  guifg=#073642
     hi background                                                                   guibg=#002b36
     hi caret                                                        guifg=#fdf6e3
+    hi findhighlight                                                                guibg=#cb4b16
+    hi findhighlightforeground                                      guifg=#002b36
     hi foreground                                                   guifg=#839496
+    hi guide                                                        guifg=#073642
+    hi gutter                                                                       guibg=#073642
+    hi gutterforeground                                             guifg=#586e75
+    hi highlight                                                                    guibg=#b58900
+    hi highlightforeground                                          guifg=#002b36
     hi linehighlight                                                                guibg=#073642
-    hi selection                                                                    guibg=#073642
+    hi selection                                                                    guibg=#586e75
+    hi selectionborder                                              guifg=#586e75
+    hi selectionforeground                                          guifg=#002b36
+    hi stackguide                                                   guifg=#073642
 
 " }}}
 
