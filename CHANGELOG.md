@@ -3,6 +3,7 @@
 ## Unreleased
 
 * Fixed: Monokai
+* Fixed: Solarized
 
 ## 0.3.0
 

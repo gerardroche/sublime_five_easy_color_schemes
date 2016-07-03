@@ -1,0 +1,71 @@
+COLOR TEST "Packages/five_easy_color_schemes/Solarized (Dark).tmTheme" "CSS"
+
+      //
+// ^ fg=#586e75 bg=#002b36 fs=
+
+@font-face {
+// ^ fg=#859900 fs=
+  font-family: Chunkfive; src: url('Chunkfive.otf');
+// ^ fg=#b58900 fs=
+//                          ^ fg=#b58900 fs=
+//                              ^ fg=#268bd2 fs=
+//                                  ^^^^^^^^^^^^^ fg=#2aa198 fs=
+}
+
+body, .usertext {
+// ^ fg=#b58900 fs=
+//        ^ fg=#268bd2 fs=
+  color: #F0F0F0; background: #600;
+// ^ fg=#b58900 fs=
+//                  ^ fg=#b58900 fs=
+  font-family: Chunkfive, sans;
+// ^ fg=#b58900 fs=
+}
+
+@import url(print.css);
+// ^ fg=#859900 fs=
+//      ^ fg=#268bd2 fs=
+//          ^^^^^^^^^ fg=#2aa198 fs=
+@media print {
+// ^ fg=#859900 fs=
+//      ^ fg=#839496 fs=
+  a[href^=http]::after {
+//^ fg=#b58900 fs=
+//  ^ fg=#93a1a1 fs=
+//      ^^ fg=#859900 fs=
+//        ^^^^ fg=#2aa198 fs=
+//             ^^^^^^^ fg=#586e75 fs=
+    content: attr(href)
+//      ^ fg=#b58900 fs=
+//              ^ fg=#268bd2 fs=
+//                  ^ fg=#93a1a1 fs=
+  }
+}
+
+#container > .container:first-child {
+//  ^ fg=#268bd2 fs=
+//              ^ fg=#268bd2 fs=
+//                      ^ fg=#586e75 fs=
+    margin-top: 20px;
+//  ^ fg=#b58900 fs=
+//              ^^ fg=#2aa198 fs=
+//                ^^ fg=#2aa198 fs=
+}
+
+pre code {
+    display: none;
+//              ^ fg=#839496 fs=
+    display: block; padding: 0.5em;
+//              ^ fg=#839496 fs=
+    color: #333;
+    background: #f8f8ff;
+}
+
+pre .comment,
+pre .template_comment,
+pre .diff .header,
+pre .javadoc {
+    color: #998;
+    font-style: italic;
+//              ^ fg=#839496 fs=
+}
