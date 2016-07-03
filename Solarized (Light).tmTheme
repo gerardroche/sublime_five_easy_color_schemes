@@ -2019,7 +2019,7 @@
                 <key>foreground</key>
                 <string>#dc322f</string>
                 <key>fontStyle</key>
-                <string>undercurl</string>
+                <string>squiggly_underline</string>
             </dict>
         </dict>
         <dict>
@@ -2030,7 +2030,7 @@
                 <key>foreground</key>
                 <string>#dc322f</string>
                 <key>fontStyle</key>
-                <string>undercurl</string>
+                <string>squiggly_underline</string>
             </dict>
         </dict>
         <dict>
@@ -2041,7 +2041,7 @@
                 <key>foreground</key>
                 <string>#dc322f</string>
                 <key>fontStyle</key>
-                <string>undercurl</string>
+                <string>squiggly_underline</string>
             </dict>
         </dict>
         <dict>
@@ -2052,7 +2052,7 @@
                 <key>foreground</key>
                 <string>#cb4b16</string>
                 <key>fontStyle</key>
-                <string>undercurl</string>
+                <string>squiggly_underline</string>
             </dict>
         </dict>
         <dict>
@@ -2063,7 +2063,7 @@
                 <key>foreground</key>
                 <string>#cb4b16</string>
                 <key>fontStyle</key>
-                <string>undercurl</string>
+                <string>squiggly_underline</string>
             </dict>
         </dict>
     </array>
