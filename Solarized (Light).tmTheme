@@ -17,7 +17,7 @@
                 <key>popupCss</key>
                 <string><![CDATA[
                     html {
-                        background-color: #fdf6e3;
+                        background-color: #eee8d5;
                         color: #657b83;
                     }
                     a {

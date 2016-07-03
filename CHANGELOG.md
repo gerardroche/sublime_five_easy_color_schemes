@@ -1,5 +1,9 @@
 # gerardroche/sublime_five_easy_color_schemes
 
+## 0.4.1
+
+* Fixed: popup background should not be the same as view background
+
 ## 0.4.0
 
 * Fixed: Monokai
