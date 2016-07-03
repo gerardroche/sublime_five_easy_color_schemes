@@ -3,18 +3,18 @@
 " INFO Colors (15) and styles used:
 " INFO
 " INFO * #073642
-" INFO * #268bd2
-" INFO * #2aa198
+" INFO * #cb4b16
+" INFO * #859900
+" INFO * #dc322f
 " INFO * #586e75
+" INFO * #b58900
+" INFO * #2aa198
 " INFO * #657b83
+" INFO * #268bd2
+" INFO * #d33682
 " INFO * #6c71c4
 " INFO * #839496
-" INFO * #859900
 " INFO * #93a1a1
-" INFO * #b58900
-" INFO * #cb4b16
-" INFO * #d33682
-" INFO * #dc322f
 " INFO * #eee8d5
 " INFO * #fdf6e3
 " INFO * bold

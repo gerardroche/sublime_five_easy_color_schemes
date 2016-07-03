@@ -16,7 +16,7 @@ The goal is to group a maximum of five schemes, each with a light and dark mode,
 
 ## Features
 
-* A dark and light mode for each scheme
+* A light and dark mode for each scheme
 * Supports various plugins including [GitGutter](https://packagecontrol.io/packages/GitGutter) and [SublimeLinter](https://packagecontrol.io/packages/SummitLinter).
 * An extensive test suite
 
