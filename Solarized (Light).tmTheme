@@ -10,10 +10,14 @@
             <key>settings</key>
             <dict>
                 <key>background</key>           <string>#fdf6e3</string>
-                <key>caret</key>                <string>#073642</string>
+                <key>caret</key>                <string>#002b36</string>
                 <key>foreground</key>           <string>#657b83</string>
+                <key>gutter</key>               <string>#eee8d5</string>
+                <key>gutterForeground</key>     <string>#93a1a1</string>
                 <key>lineHighlight</key>        <string>#eee8d5</string>
-                <key>selection</key>            <string>#fdf6e3</string>
+                <key>selection</key>            <string>#93a1a1</string>
+                <key>selectionBorder</key>      <string>#93a1a1</string>
+                <key>selectionForeground</key>  <string>#fdf6e3</string>
                 <key>popupCss</key>
                 <string><![CDATA[
                     html {
