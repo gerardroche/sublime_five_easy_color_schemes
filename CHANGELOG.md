@@ -1,8 +1,10 @@
 # gerardroche/sublime_five_easy_color_schemes
 
-## Unreleased
+## 0.5.0
 
+* Added: Readme monokai color information
 * Fixed: Monokai markdown
+* Fixed: Monokai search highlight
 
 ## 0.4.3
 
