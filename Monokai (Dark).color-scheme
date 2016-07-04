@@ -64,6 +64,7 @@ hi gutter.scm.changed                                           guifg=#fd971f
 hi gutter.scm.deleted                                           guifg=#f92672
 hi gutter.scm.ignored                                           guifg=#75715e
 hi gutter.scm.untracked                                         guifg=#75715e
+hi highlight.find                                               guifg=#272822   guibg=#fd971f
 hi invalid                                                      guifg=#f8f8f2   guibg=#f92672
 hi invalid.deprecated                                           guifg=#f8f8f2   guibg=#ae81ff
 hi keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator) guifg=#f92672

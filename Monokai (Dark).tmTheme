@@ -676,6 +676,28 @@
                 <string>#fd971f</string>
             </dict>
         </dict>
+        <dict>
+            <key>scope</key>
+            <string>highlight</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#e6db74</string>
+                <key>foreground</key>
+                <string>#272822</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>highlight.find</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#fd971f</string>
+                <key>foreground</key>
+                <string>#272822</string>
+            </dict>
+        </dict>
     </array>
 </dict>
 </plist>
