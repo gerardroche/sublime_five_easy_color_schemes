@@ -106,6 +106,7 @@ hi support.constant                                             guifg=#66d9ef
 hi support.constant.property-value                              guifg=#ae81ff
 hi support.function                                             guifg=#66d9ef
 hi support.type                                                 guifg=#66d9ef                   gui=italic
+hi text.html.markdown punctuation                               guifg=#3e3d32
 hi variable.function                                            guifg=#66d9ef
 hi variable.language                                            guifg=#fd971f                   gui=italic
 hi variable.other.dollar.only.js                                guifg=#f92672

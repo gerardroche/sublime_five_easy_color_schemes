@@ -19,7 +19,7 @@
 " INFO * #fdf6e3
 " INFO * bold
 " INFO * italic
-" INFO * undercurl
+" INFO * squiggly_underline
 
 " {{{ Settings
 
@@ -112,8 +112,8 @@ hi keyword.other.phpdoc                                         guifg=#93a1a1
 hi keyword.other.special-method                                 guifg=#cb4b16
 hi keyword.other.special-method.ruby                            guifg=#cb4b16
 hi keyword.other.unit.css                                       guifg=#2aa198
-hi linter.error                                                 guifg=#dc322f                   gui=undercurl
-hi linter.warning                                               guifg=#cb4b16                   gui=undercurl
+hi linter.error                                                 guifg=#dc322f                   gui=squiggly_underline
+hi linter.warning                                               guifg=#cb4b16                   gui=squiggly_underline
 hi markup.changed                                               guifg=#cb4b16
 hi markup.changed.git_gutter                                    guifg=#cb4b16
 hi markup.deleted                                               guifg=#dc322f
@@ -124,7 +124,7 @@ hi markup.inserted                                              guifg=#859900
 hi markup.inserted.git_gutter                                   guifg=#859900
 hi markup.untracked                                             guifg=#586e75
 hi markup.untracked.git_gutter                                  guifg=#586e75
-hi message.error                                                guifg=#dc322f                   gui=undercurl
+hi message.error                                                guifg=#dc322f                   gui=squiggly_underline
 hi meta.array.empty.php support.function.construct.php          guifg=#b58900
 hi meta.array.php                                               guifg=#586e75
 hi meta.array.php support.function.construct.php                guifg=#b58900
@@ -225,8 +225,8 @@ hi string.quoted.double.doctype.identifiers-and-dtds.html       guifg=#93a1a1   
 hi string.quoted.single                                         guifg=#2aa198
 hi string.regexp                                                guifg=#dc322f
 hi sublimelinter.gutter-mark                                    guifg=#fdf6e3   guibg=#dc322f
-hi sublimelinter.mark.error                                     guifg=#dc322f                   gui=undercurl
-hi sublimelinter.mark.warning                                   guifg=#cb4b16                   gui=undercurl
+hi sublimelinter.mark.error                                     guifg=#dc322f                   gui=squiggly_underline
+hi sublimelinter.mark.warning                                   guifg=#cb4b16                   gui=squiggly_underline
 hi support.class                                                guifg=#859900
 hi support.class.php                                            guifg=#839496
 hi support.class.ruby                                           guifg=#b58900
