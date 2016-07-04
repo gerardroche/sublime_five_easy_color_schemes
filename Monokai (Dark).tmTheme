@@ -380,6 +380,15 @@
         </dict>
         <dict>
             <key>scope</key>
+            <string>text.html.markdown punctuation</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#3e3d32</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
             <string>markup.heading</string>
             <key>settings</key>
             <dict>

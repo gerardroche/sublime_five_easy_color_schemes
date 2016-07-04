@@ -2,15 +2,15 @@
 
 ## 0.4.3
 
-* Fixed: guides and highlight regions
+* Fixed: Guides and highlight regions
 
 ## 0.4.2
 
-* Fixed: gutter and selections
+* Fixed: Gutter and selections
 
 ## 0.4.1
 
-* Fixed: popup background should not be the same as view background
+* Fixed: Popup background
 
 ## 0.4.0
 
@@ -19,7 +19,7 @@
 
 ## 0.3.0
 
-* Fixed: popup css styles
+* Fixed: Popup css
 * Fixed: Solarized background
 
 ## 0.2.0

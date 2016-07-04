@@ -4,7 +4,7 @@ Monokai, Solarized, and three other popular color schemes for Sublime Text 3.
 
 *This is a work in progress. Please do not hesitate to open issues.*
 
-The goal is to group a maximum of five schemes, each with a light and dark mode, in one package *(three have yet to be selected #1)*, ensure they are good, polished, well tested, and of the highest quality.
+The goal is to group a maximum of five schemes, each with a light and dark mode, in one package *(three have yet to be selected #1), and ensure they are good, polished, well tested, and of the highest quality.
 
 ## Overview
 
