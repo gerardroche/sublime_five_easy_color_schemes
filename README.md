@@ -29,11 +29,11 @@ The goal is to group a maximum of five schemes, each with a light and dark mode,
 
 #### Light
 
-![Solarized Light Palette](solarized_light_color_palette.png)
+![Solarized Light Palette](res/palette/solarized_light/colors.png)
 
 ### Dark
 
-![Solarized Dark Palette](solarized_dark_color_palette.png)
+![Solarized Dark Palette](res/palette/solarized_dark/colors.png)
 
 ### Monokai
 
@@ -41,26 +41,28 @@ The goal is to group a maximum of five schemes, each with a light and dark mode,
 
 #### Dark
 
-![Monokai Dark Palette](monokai_dark_color_palette.png)
+![Monokai Dark Palette](res/palette/monokai_dark/colors.png)
 
 ##### Background Tones
 
-Base03 (\#272822) | Base02 (\#3e3d32)
-------------------|------------------
-<div style="background:#272822;width:240px;height:50px;"></div> | <div style="background:#3e3d32;width:240px;height:50px;"></div>
+Base03 | Base02
+-------|-------
+\#272822 |\#3e3d32
+![](res/palette/monokai_dark/272822.png) | ![](res/palette/monokai_dark/3e3d32.png)
 
 ##### Content Tones
 
-Base01 (\#75715e) | Base0 (\#f8f8f2) | Base1 (\#base0) ???
-------------------|------------------|-----------------
-<div style="background:#75715e;width:150px;height:50px;"></div> | <div style="background:#f8f8f2;width:150px;height:50px;"></div> | <div style="background:#base1;width:150px;height:50px;"></div>
+Base01 | Base0 | Base1
+-------|-------|------
+\#75715e | \#f8f8f2 | \#base0
+![](res/palette/monokai_dark/75715e.png) | ![](res/palette/monokai_dark/f8f8f2.png) | ![](res/palette/monokai_dark/base1.png)
 
 ##### Accents
 
 Yellow | Orange | Red | Magenta | Violet | Blue | Cyan | Green
 -------|--------|-----|---------|--------|------|------|------
 \#e6db74 | \#fd971f | \#f92672 | \#fd5ff0 | \#ae81ff | \#66d9ef | \#a1efe4 | \#a6e22e
-<div style="background:#e6db74;width:50px;height:50px;"></div> | <div style="background:#fd971f;width:50px;height:50px;"></div> | <div style="background:#f92672;width:50px;height:50px;"></div> | <div style="background:#fd5ff0;width:50px;height:50px;"></div> | <div style="background:#ae81ff;width:50px;height:50px;"></div> | <div style="background:#66d9ef;width:50px;height:50px;"></div> | <div style="background:#a1efe4;width:50px;height:50px;"></div> | <div style="background:#a6e22e;width:50px;height:50px;"></div>
+![](res/palette/monokai_dark/e6db74.png) | ![](res/palette/monokai_dark/fd971f.png) | ![](res/palette/monokai_dark/f92672.png) | ![](res/palette/monokai_dark/fd5ff0.png) | ![](res/palette/monokai_dark/ae81ff.png) | ![](res/palette/monokai_dark/66d9ef.png) | ![](res/palette/monokai_dark/a1efe4.png) | ![](res/palette/monokai_dark/a6e22e.png)
 
 ##### Example usage
 
