@@ -1,5 +1,9 @@
 # gerardroche/sublime_five_easy_color_schemes
 
+## Unreleased
+
+* Fixed: Monokai markdown
+
 ## 0.4.3
 
 * Fixed: Guides and highlight regions

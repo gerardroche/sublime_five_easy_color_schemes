@@ -82,10 +82,10 @@ hi markup.ignored.git_gutter                                    guifg=#75715e
 hi markup.inserted                                              guifg=#a6e22e
 hi markup.inserted.git_gutter                                   guifg=#a6e22e
 hi markup.italic                                                                                gui=italic
-hi markup.quote                                                                 guibg=#3e3d32   gui=italic
-hi markup.quote punctuation.definition.blockquote               guifg=#75715e
-hi markup.raw                                                                   guibg=#3e3d32   gui=italic
-hi markup.raw punctuation.definition.raw                        guifg=#75715e
+hi markup.quote                                                                                 gui=italic
+hi markup.quote punctuation.definition.blockquote               guifg=#75715e   guibg=#75715e
+hi markup.raw                                                                   guibg=#3e3d32
+hi markup.raw punctuation.definition.raw                                        guibg=#272822
 hi markup.underline                                                                             gui=underline
 hi markup.underline.link                                        guifg=#66d9ef                   gui=underline
 hi markup.untracked                                             guifg=#75715e
