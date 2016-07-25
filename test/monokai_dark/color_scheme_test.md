@@ -10,7 +10,7 @@ Headers
 ## This is an <h2> tag
 // ^ fg=#fd971f fs=bold
 ###### This is an <h6> tag
-// ^ fg=#fd971f fs=bold
+// ^ fg=#75715e fs=
 //      ^ fg=#fd971f fs=bold
 
 Emphasis
@@ -27,7 +27,9 @@ __This will also be bold__
 
 _You **can** combine them_
 // ^ fg=#f8f8f2 fs=italic
-//   ^^^^^^^ fg=#f8f8f2 fs=bold
+//   ^^ fg=#75715e fs=
+//     ^^^ fg=#f8f8f2 fs=bold
+//        ^^ fg=#75715e fs=
 //           ^ fg=#f8f8f2 fs=italic
 
 Lists
@@ -66,8 +68,8 @@ As Kanye West said:
 
   > We're living the future so
   > the present is our past.
-//^ fg=#75715e bg=#3e3d32 fs=italic
-//  ^ fg=#f8f8f2 bg=#3e3d32 fs=italic
+//^ fg=#75715e bg=#75715e fs=
+//  ^ fg=#f8f8f2 fs=italic
 
 Inline code
 
