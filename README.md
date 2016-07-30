@@ -1,13 +1,13 @@
 # gerardroche/sublime_five_easy_color_schemes
 
-[![Author](http://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat)](https://twitter.com/gerardroche)
+[![Author](https://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat)](https://twitter.com/gerardroche)
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/gerardroche/sublime_five_easy_color_schemes)
 [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime_five_easy_color_schemes.svg?style=flat)](https://github.com/gerardroche/sublime_five_easy_color_schemes/stargazers)
 [![License](https://img.shields.io/badge/license-BSD--3-blue.svg?style=flat)](https://raw.githubusercontent.com/gerardroche/sublime_five_easy_color_schemes/master/LICENSE)
 
 [![Sublime version](https://img.shields.io/badge/sublime-v3-lightgrey.svg?style=flat)](http://sublimetext.com)
-[![Latest version](https://img.shields.io/github/tag/gerardroche/sublime_five_easy_color_schemes.svg?maxAge=2592000?style=flat&label=release)](https://github.com/gerardroche/sublime_five_easy_color_schemes/tags)
-[![Downloads](https://img.shields.io/packagecontrol/dt/five_easy_color_schemes.svg?maxAge=2592000?style=flat)](https://packagecontrol.io/packages/five_easy_color_schemes)
+[![Latest version](https://img.shields.io/github/tag/gerardroche/sublime_five_easy_color_schemes.svg?label=release&style=flat&maxAge=2592000)](https://github.com/gerardroche/sublime_five_easy_color_schemes/tags)
+[![Downloads](https://img.shields.io/packagecontrol/dt/five_easy_color_schemes.svg?style=flat&maxAge=2592000)](https://packagecontrol.io/packages/five_easy_color_schemes)
 
 Monokai, Solarized, and three other popular color schemes for Sublime Text.
 
