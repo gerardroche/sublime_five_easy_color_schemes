@@ -1,4 +1,4 @@
-# gerardroche/sublime_five_easy_color_schemes
+# five_easy_color_schemes
 
 [![Author](https://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat)](https://twitter.com/gerardroche)
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/gerardroche/sublime_five_easy_color_schemes)
@@ -18,8 +18,8 @@ The goal is to group a maximum of five schemes, each with a light and dark mode,
 ## Overview
 
 * [Features](#features)
-* [Schemes](#schemes)
 * [Installation](#installation)
+* [Schemes](#schemes)
 * [Contributing](#contributing)
 * [Changelog](#changelog)
 * [License](#license)
@@ -29,6 +29,21 @@ The goal is to group a maximum of five schemes, each with a light and dark mode,
 * Supports [GitGutter](https://packagecontrol.io/packages/GitGutter), [SublimeLinter](https://packagecontrol.io/packages/SummitLinter), and other plugins.
 * Provides a light and dark mode for each scheme.
 * An extensive test suite that ensures quality.
+
+## Installation
+
+### Package Control installation
+
+The preferred method of installation is [Package Control].
+
+### Manual installation
+
+1. Close Sublime Text.
+2. Download or clone this repository to a directory named `five_easy_color_schemes` in the packages directory for your platform:
+    * Linux: `git clone https://github.com/gerardroche/sublime_five_easy_color_schemes.git ~/.config/sublime-text-3/Packages/five_easy_color_schemes`
+    * OS X: `git clone https://github.com/gerardroche/sublime_five_easy_color_schemes.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/five_easy_color_schemes`
+    * Windows: `git clone https://github.com/gerardroche/sublime_five_easy_color_schemes.git %APPDATA%\Sublime/ Text/ 3/Packages/five_easy_color_schemes`
+3. The features listed above will be available the next time Sublime Text is started.
 
 ## Schemes
 
@@ -91,23 +106,6 @@ Yellow | Orange | Red | Magenta | Violet | Blue | Cyan | Green
 * Studio: [studiostyl.es/brighter-monokai-variant](http://studiostyl.es/schemes/brighter-monokai-variant)
 * Terminal: [Mayccoll/Gogh](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md#monokai-dark)
 
-## Installation
-
-### Package Control installation
-
-[Package Control](https://packagecontrol.io) is the preferred method of installation.
-
-Search for "[five_easy_color_schemes](https://packagecontrol.io/search/five_easy_color_schemes)".
-
-### Manual installation
-
-1. Close Sublime Text.
-2. Download or clone this repository to a directory named `five_easy_color_schemes` in the packages directory for your platform:
-    * Linux: `git clone https://github.com/gerardroche/sublime_five_easy_color_schemes.git ~/.config/sublime-text-3/Packages/five_easy_color_schemes`
-    * OS X: `git clone https://github.com/gerardroche/sublime_five_easy_color_schemes.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/five_easy_color_schemes`
-    * Windows: `git clone https://github.com/gerardroche/sublime_five_easy_color_schemes.git %APPDATA%\Sublime/ Text/ 3/Packages/five_easy_color_schemes`
-3. The features listed above will be available the next time Sublime Text is started.
-
 ## Contributing
 
 Your issue reports and pull requests are always welcome.
@@ -123,3 +121,5 @@ See [CHANGELOG.md](CHANGELOG.md).
 ## License
 
 Released under the [BSD 3-Clause License](LICENSE).
+
+[Package Control]: https://packagecontrol.io/browse/authors/gerardroche
