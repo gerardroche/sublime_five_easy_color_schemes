@@ -1,5 +1,9 @@
 # gerardroche/sublime_five_easy_color_schemes
 
+## 0.6.0
+
+* Added: Improved monokai dark markdown
+
 ## 0.5.1
 
 * Fixed: tests for next color_scheme_unit version 0.6.0

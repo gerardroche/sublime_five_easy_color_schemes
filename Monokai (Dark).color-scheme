@@ -106,6 +106,26 @@ hi support.constant                                             guifg=#66d9ef
 hi support.constant.property-value                              guifg=#ae81ff
 hi support.function                                             guifg=#66d9ef
 hi support.type                                                 guifg=#66d9ef                   gui=italic
+hi text.html.markdown markup.list.numbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown guifg=#e6db74   guibg=#272822
+hi text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown guifg=#e6db74
+hi text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.markdown markup.underline.link.markdown guifg=#e6db74
+hi text.html.markdown markup.list.unnumbered.markdown punctuation.definition.list_item.markdown guifg=#fd971f
+hi text.html.markdown meta.block-level.markdown markup.heading.markdown entity.name.section.markdown guifg=#fd971f
+hi text.html.markdown meta.block-level.markdown markup.heading.markdown punctuation.definition.heading.markdown guifg=#fd971f
+hi text.html.markdown meta.block-level.markdown markup.quote.markdown guifg=#75715e   guibg=#272822
+hi text.html.markdown meta.block-level.markdown markup.quote.markdown markup.raw.inline.markdown guifg=#75715e   guibg=#272822
+hi text.html.markdown meta.block-level.markdown markup.quote.markdown punctuation.definition.blockquote.markdown guifg=#75715e   guibg=#272822
+hi text.html.markdown meta.block-level.markdown markup.raw.block.markdown guifg=#e6db74   guibg=#272822
+hi text.html.markdown meta.link.inline.markdown string.other.link.title.markdown guifg=#75715e
+hi text.html.markdown meta.link.reference.def.markdown constant.other.reference.link.markdown guifg=#fd971f
+hi text.html.markdown meta.link.reference.def.markdown markup.underline.link.markdown guifg=#e6db74
+hi text.html.markdown meta.paragraph.markdown constant.character.entity.html guifg=#66d9ef
+hi text.html.markdown meta.paragraph.markdown constant.character.entity.html punctuation.definition.entity.html guifg=#66d9ef
+hi text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown guifg=#e6db74   guibg=#272822
+hi text.html.markdown meta.paragraph.markdown meta.image.inline.markdown guifg=#75715e
+hi text.html.markdown meta.paragraph.markdown meta.image.inline.markdown markup.underline.link.image.markdown guifg=#e6db74
+hi text.html.markdown meta.paragraph.markdown meta.image.inline.markdown string.other.link.description.markdown guifg=#75715e
+hi text.html.markdown meta.paragraph.markdown meta.link.inline.markdown markup.underline.link.markdown guifg=#e6db74
 hi text.html.markdown punctuation                               guifg=#75715e
 hi variable.function                                            guifg=#66d9ef
 hi variable.language                                            guifg=#fd971f                   gui=italic

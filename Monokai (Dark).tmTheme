@@ -380,15 +380,6 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>text.html.markdown punctuation</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#75715e</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>scope</key>
             <string>markup.heading</string>
             <key>settings</key>
             <dict>
@@ -716,6 +707,167 @@
                 <string>#272822</string>
             </dict>
         </dict>
+
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown punctuation</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#75715e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown meta.link.inline.markdown string.other.link.title.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#75715e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown meta.paragraph.markdown meta.link.inline.markdown markup.underline.link.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e6db74</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.markdown markup.underline.link.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e6db74</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown meta.block-level.markdown markup.heading.markdown entity.name.section.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fd971f</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown meta.block-level.markdown markup.heading.markdown punctuation.definition.heading.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fd971f</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown markup.list.unnumbered.markdown punctuation.definition.list_item.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fd971f</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown meta.paragraph.markdown constant.character.entity.html punctuation.definition.entity.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66D9EF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown meta.paragraph.markdown constant.character.entity.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66D9EF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E6DB74</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown, text.html.markdown markup.list.numbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#272822</string>
+                <key>foreground</key>
+                <string>#E6DB74</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown meta.paragraph.markdown meta.image.inline.markdown markup.underline.link.image.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E6DB74</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown meta.paragraph.markdown meta.image.inline.markdown, text.html.markdown meta.paragraph.markdown meta.image.inline.markdown string.other.link.description.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#75715e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown meta.block-level.markdown markup.quote.markdown punctuation.definition.blockquote.markdown, text.html.markdown meta.block-level.markdown markup.quote.markdown markup.raw.inline.markdown, text.html.markdown meta.block-level.markdown markup.quote.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#272822</string>
+                <key>foreground</key>
+                <string>#75715e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown meta.block-level.markdown markup.raw.block.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#272822</string>
+                <key>foreground</key>
+                <string>#e6db74</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown meta.link.reference.def.markdown constant.other.reference.link.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fd971f</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>text.html.markdown meta.link.reference.def.markdown markup.underline.link.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e6db74</string>
+            </dict>
+        </dict>
+
     </array>
 </dict>
 </plist>
