@@ -1,5 +1,4 @@
-COLOR TEST "Packages/five_easy_color_schemes/Solarized (Dark).tmTheme" "PHP"
-<?php
+<?php // COLOR TEST "Packages/five_easy_color_schemes/Solarized (Dark).tmTheme" "PHP"
 
       //
 // ^ fg=#839496 bg=#002b36 fs=

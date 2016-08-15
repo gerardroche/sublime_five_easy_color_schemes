@@ -1,5 +1,4 @@
-COLOR TEST "Packages/five_easy_color_schemes/Monokai (Dark).tmTheme" "PHP"
-<?php
+<?php // COLOR TEST "Packages/five_easy_color_schemes/Monokai (Dark).tmTheme" "PHP"
 
       //
 // ^ fg=#f8f8f2 bg=#272822 fs=
