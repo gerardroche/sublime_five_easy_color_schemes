@@ -39,4 +39,4 @@ class SomeClass:
 #           ^ fg=#f92672 fs=
 #             ^^^^^^^^^^^^^^ fg=#e6db74 fs=
 ... prompt'''
-#^^^^^^^^^^^^ fg=#e6db74 fs=
+# ^ fg=#e6db74 fs=

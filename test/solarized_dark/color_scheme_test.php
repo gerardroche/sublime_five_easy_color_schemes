@@ -10,47 +10,47 @@
 //  ^^^^^ fg=#dc322f fs=
 
     // comment
-//  ^^^^^^^^^^ fg=#586e75 fs=
+//  ^^ fg=#586e75 fs=
+//     ^ fg=#586e75 fs=
 
     /* comment */
-//  ^^^^^^^^^^^^^ fg=#586e75 fs=
+//  ^^ fg=#586e75 fs=
+//     ^ fg=#586e75 fs=
+//             ^^ fg=#586e75 fs=
 
     /** comment */
-//  ^^^^^^^^^^^^^^ fg=#586e75 fs=
+//  ^^^ fg=#586e75 fs=
+//      ^ fg=#586e75 fs=
+//              ^^ fg=#586e75 fs=
 
     /*
 //  ^^ fg=#586e75 fs=
 
         comment
-// ^^^^^^^^^^^^ fg=#586e75 fs=
+//      ^ fg=#586e75 fs=
 
     */
-// ^^^ fg=#586e75 fs=
+//  ^^ fg=#586e75 fs=
 
     /**
      * comment
      */
-// ^^^^ fg=#586e75 fs=
+//   ^^ fg=#586e75 fs=
 
     null;
 //  ^ fg=#b58900 fs=
-//      ^ fg=#839496 fs=
 
     true;
 //  ^ fg=#b58900 fs=
-//      ^ fg=#839496 fs=
 
     false;
 //  ^ fg=#b58900 fs=
-//       ^ fg=#839496 fs=
 
-    1234;
+    1;
 //  ^ fg=#2aa198 fs=
-//      ^ fg=#839496 fs=
 
-    1.23;
-//  ^ fg=#2aa198 fs=
-//      ^ fg=#839496 fs=
+    1.2;
+//  ^^^ fg=#2aa198 fs=
 
     'str';
 //  ^ fg=#839496 fs=
@@ -58,7 +58,7 @@
 //      ^^ fg=#839496 fs=
 
     array();
-//  ^^^^^ fg=#b58900 fs=
+//  ^ fg=#b58900 fs=
 //       ^^ fg=#dc322f fs=
 //         ^ fg=#839496 fs=
 
@@ -85,17 +85,17 @@
 
    $_SERVER['DOCUMENT_ROOT'];
 // ^ fg=#859900 fs=
-//  ^^^^^^^ fg=#268bd2 fs=
+//  ^^ fg=#268bd2 fs=
 //         ^ fg=#dc322f fs=
 //          ^ fg=#839496 fs=
-//           ^^^^^^^^^^^^^ fg=#2aa198 fs=
+//           ^ fg=#2aa198 fs=
 //                        ^ fg=#839496 fs=
 //                         ^ fg=#dc322f fs=
 //                          ^ fg=#839496 fs=
 
    $_GET['id'];
 // ^ fg=#859900 fs=
-//  ^^^^ fg=#268bd2 fs=
+//  ^^ fg=#268bd2 fs=
 //      ^ fg=#dc322f fs=
 //       ^ fg=#839496 fs=
 //        ^^ fg=#2aa198 fs=
@@ -105,7 +105,7 @@
 
    $_POST['id'];
 // ^ fg=#859900 fs=
-//  ^^^^^ fg=#268bd2 fs=
+//  ^^ fg=#268bd2 fs=
 //       ^ fg=#dc322f fs=
 //        ^ fg=#839496 fs=
 //         ^^ fg=#2aa198 fs=
@@ -115,12 +115,12 @@
 
    $_FILES;
 // ^ fg=#859900 fs=
-//  ^^^^^^ fg=#268bd2 fs=
+//  ^^ fg=#268bd2 fs=
 //        ^ fg=#839496 fs=
 
    $_COOKIE['id'];
 // ^ fg=#859900 fs=
-//  ^^^^^^^ fg=#268bd2 fs=
+//  ^^ fg=#268bd2 fs=
 //         ^ fg=#dc322f fs=
 //          ^ fg=#839496 fs=
 //           ^^ fg=#2aa198 fs=
@@ -130,7 +130,7 @@
 
    $_SESSION['id'];
 // ^ fg=#859900 fs=
-//  ^^^^^^^^ fg=#268bd2 fs=
+//  ^^ fg=#268bd2 fs=
 //          ^ fg=#dc322f fs=
 //           ^ fg=#839496 fs=
 //            ^^ fg=#2aa198 fs=
@@ -140,7 +140,7 @@
 
    $_REQUEST['id'];
 // ^ fg=#859900 fs=
-//  ^^^^^^^^ fg=#268bd2 fs=
+//  ^^ fg=#268bd2 fs=
 //          ^ fg=#dc322f fs=
 //           ^ fg=#839496 fs=
 //            ^^ fg=#2aa198 fs=
@@ -150,12 +150,12 @@
 
    $_ENV;
 // ^ fg=#859900 fs=
-//  ^^^^ fg=#268bd2 fs=
+//  ^^ fg=#268bd2 fs=
 //      ^ fg=#839496 fs=
 
    $var;
 // ^ fg=#859900 fs=
-//  ^^^ fg=#268bd2 fs=
+//  ^ fg=#268bd2 fs=
 //     ^ fg=#839496 fs=
 
 echo 'str';
@@ -165,7 +165,7 @@ echo 'str';
 //       ^ fg=#839496 fs=
 
 print('str');
-// ^^ fg=#dc322f fs=
+// ^ fg=#dc322f fs=
 //   ^ fg=#839496 fs=
 //    ^ fg=#839496 fs=
 //     ^^^ fg=#2aa198 fs=
@@ -174,10 +174,10 @@ print('str');
 //          ^ fg=#839496 fs=
 
 isset($var);
-// ^^ fg=#859900 fs=
+// ^ fg=#859900 fs=
 //   ^ fg=#839496 fs=
 //    ^ fg=#859900 fs=
-//     ^^^ fg=#268bd2 fs=
+//     ^ fg=#268bd2 fs=
 //        ^ fg=#839496 fs=
 //         ^ fg=#839496 fs=
 
@@ -214,36 +214,36 @@ require_once 'file.php';
 //                     ^ fg=#839496 fs=
 
     if ($arg == 1) {
-//  ^^ fg=#859900 fs=
+//  ^ fg=#859900 fs=
 //     ^ fg=#839496 fs=
 //      ^ fg=#859900 fs=
-//       ^^^ fg=#268bd2 fs=
+//       ^ fg=#268bd2 fs=
 //           ^^ fg=#859900 fs=
 //              ^ fg=#2aa198 fs=
 //               ^ fg=#839496 fs=
 //                 ^ fg=#839496 fs=
         try {
-//      ^^^ fg=#859900 fs=
+//      ^ fg=#859900 fs=
 //          ^ fg=#839496 fs=
 
         } catch (Exception $e) {
 //      ^ fg=#839496 fs=
-//        ^^^^^ fg=#859900 fs=
+//        ^ fg=#859900 fs=
 //              ^ fg=#839496 fs=
-//               ^^^^^^^^^ fg=#859900 fs=
+//               ^ fg=#859900 fs=
 //                         ^ fg=#859900 fs=
 //                          ^ fg=#268bd2 fs=
 //                           ^ fg=#839496 fs=
 //                             ^ fg=#839496 fs=
         } finally {
 //      ^ fg=#839496 fs=
-//        ^^^^^^^ fg=#859900 fs=
+//        ^ fg=#859900 fs=
 //                ^ fg=#839496 fs=
         }
 //      ^ fg=#839496 fs=
 
         for ($i = 0; $i < 2; $i++) {
-//      ^^^ fg=#859900 fs=
+//      ^ fg=#859900 fs=
 //          ^ fg=#839496 fs=
 //           ^ fg=#859900 fs=
 //            ^ fg=#268bd2 fs=
@@ -264,60 +264,60 @@ require_once 'file.php';
 //      ^ fg=#839496 fs=
 
         foreach ($collection as $value) {
-//      ^^^^^^^ fg=#859900 fs=
+//      ^ fg=#859900 fs=
 //              ^ fg=#839496 fs=
 //               ^ fg=#859900 fs=
-//                ^^^^^^^^^^ fg=#268bd2 fs=
+//                ^ fg=#268bd2 fs=
 //                           ^^ fg=#859900 fs=
 //                              ^ fg=#859900 fs=
-//                               ^^^^^ fg=#268bd2 fs=
+//                               ^^ fg=#268bd2 fs=
 //                                    ^ fg=#839496 fs=
 //                                      ^ fg=#839496 fs=
 
             continue;
-//          ^^^^^^^^ fg=#859900 fs=
+//          ^ fg=#859900 fs=
 //                  ^ fg=#839496 fs=
         }
 //      ^ fg=#839496 fs=
 
         switch ($expr) {
-//      ^^^^^^ fg=#859900 fs=
+//      ^ fg=#859900 fs=
 //             ^ fg=#839496 fs=
 //              ^ fg=#859900 fs=
-//               ^^^^ fg=#268bd2 fs=
+//               ^ fg=#268bd2 fs=
 //                   ^ fg=#839496 fs=
 //                     ^ fg=#839496 fs=
 
             case 1:
-//          ^^^^ fg=#859900 fs=
+//          ^ fg=#859900 fs=
 //               ^ fg=#2aa198 fs=
 //                ^ fg=#839496 fs=
                 break;
-//              ^^^^^ fg=#859900 fs=
+//              ^ fg=#859900 fs=
 //                   ^ fg=#839496 fs=
 
             default:
-//          ^^^^^^^ fg=#859900 fs=
+//          ^ fg=#859900 fs=
 //                 ^ fg=#839496 fs=
                 break;
-//              ^^^^^ fg=#859900 fs=
+//              ^ fg=#859900 fs=
 //                   ^ fg=#839496 fs=
         }
 //      ^ fg=#839496 fs=
 
     } elseif ($arg === 1) {
 //  ^ fg=#839496 fs=
-//    ^^^^^ fg=#859900 fs=
+//    ^ fg=#859900 fs=
 //           ^ fg=#839496 fs=
 //            ^ fg=#859900 fs=
-//             ^^^ fg=#268bd2 fs=
+//             ^ fg=#268bd2 fs=
 //                 ^^^ fg=#859900 fs=
 //                     ^ fg=#2aa198 fs=
 //                      ^ fg=#839496 fs=
 //                        ^ fg=#839496 fs=
 
         while (1 >= 3) {
-//      ^^^^^ fg=#859900 fs=
+//      ^ fg=#859900 fs=
 //            ^ fg=#839496 fs=
 //             ^ fg=#2aa198 fs=
 //               ^^ fg=#859900 fs=
@@ -329,34 +329,34 @@ require_once 'file.php';
 
     } else {
 //  ^ fg=#839496 fs=
-//    ^^^^ fg=#859900 fs=
+//    ^ fg=#859900 fs=
 //         ^ fg=#839496 fs=
 
         do {
-//      ^^ fg=#859900 fs=
+//      ^ fg=#859900 fs=
 //         ^ fg=#839496 fs=
         } while (false);
 //      ^ fg=#839496 fs=
-//        ^^^^^ fg=#859900 fs=
+//        ^ fg=#859900 fs=
 //              ^ fg=#839496 fs=
-//               ^^^^^ fg=#b58900 fs=
+//               ^ fg=#b58900 fs=
 //                    ^^ fg=#839496 fs=
     }
 //  ^ fg=#839496 fs=
 
 phpversion();
-// ^^^^^^^ fg=#268bd2 fs=
+// ^ fg=#268bd2 fs=
 //        ^^ fg=#839496 fs=
 //          ^ fg=#839496 fs=
 
 use_func();
-// ^^^^^ fg=#839496 fs=
+// ^ fg=#839496 fs=
 //      ^^ fg=#839496 fs=
 //        ^ fg=#839496 fs=
 
 function name() {}
-// ^^^^^ fg=#cb4b16 fs=
-//       ^^^^ fg=#93a1a1 fs=
+// ^ fg=#cb4b16 fs=
+//       ^ fg=#93a1a1 fs=
 //           ^^ fg=#839496 fs=
 //              ^^ fg=#839496 fs=
 

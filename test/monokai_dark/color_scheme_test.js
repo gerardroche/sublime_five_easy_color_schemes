@@ -4,37 +4,42 @@ COLOR TEST "Packages/five_easy_color_schemes/Monokai (Dark).tmTheme" "JavaScript
 // ^ fg=#f8f8f2 bg=#272822 fs=
 
     // comment
-//  ^^^^^^^^^^ fg=#75715e fs=
+//  ^^ fg=#75715e fs=
+//     ^ fg=#75715e fs=
 
     /* comment */
-//  ^^^^^^^^^^^^^ fg=#75715e fs=
+//  ^^ fg=#75715e fs=
+//     ^ fg=#75715e fs=
+//             ^^ fg=#75715e fs=
 
     /** comment */
-//  ^^^^^^^^^^^^^^ fg=#75715e fs=
+//  ^^^ fg=#75715e fs=
+//      ^ fg=#75715e fs=
+//              ^^ fg=#75715e fs=
 
     /*
 //  ^^ fg=#75715e fs=
 
         comment
-// ^^^^^^^^^^^^ fg=#75715e fs=
+//      ^ fg=#75715e fs=
 
     */
-// ^^^ fg=#75715e fs=
+//  ^^ fg=#75715e fs=
 
     /**
      * comment
      */
-// ^^^^ fg=#75715e fs=
+//   ^^ fg=#75715e fs=
 
 function $initHighlight(block, cls) {
 // ^ fg=#66d9ef fs=italic
 //       ^^ fg=#a6e22e fs=
 
     var name = 'str';
-//  ^^^ fg=#66d9ef fs=italic
-//      ^^^^ fg=#f8f8f2 fs=
+//  ^ fg=#66d9ef fs=italic
+//      ^ fg=#f8f8f2 fs=
 //           ^ fg=#f92672 fs=
-//             ^^^^^ fg=#e6db74 fs=
+//             ^^ fg=#e6db74 fs=
 //                  ^ fg=#f8f8f2 fs=
 
     try {
@@ -64,7 +69,7 @@ function $initHighlight(block, cls) {
 //          ^^^^^^^^^^^^^^^^^ fg=#e6db74 fs=
 
     } catch (e) {
-//    ^^^^^ fg=#f92672 fs=
+//    ^ fg=#f92672 fs=
 
     }
 
@@ -87,11 +92,11 @@ function $initHighlight(block, cls) {
         console.log('undefined');
 //      ^ fg=#66d9ef fs=italic
 //              ^ fg=#66d9ef fs=
-//                  ^^^^^^^^^^^ fg=#e6db74 fs=
+//                  ^^ fg=#e6db74 fs=
 
     }
 }
 
 export $initHighlight;
 // ^ fg=#f92672 fs=
-// w   ^^^^^^^^^^^^^^^ fg=#f8f8f2 fs=
+// w   ^^ fg=#f8f8f2 fs=

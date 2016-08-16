@@ -11,15 +11,15 @@ COLOR TEST "Packages/five_easy_color_schemes/Monokai (Dark).tmTheme" "JSON"
         "count": [12, 1.2, null, true, false],
 //             ^ fg=#f8f8f2 fs=
 //               ^ fg=#f8f8f2 fs=
-//                ^^ fg=#ae81ff fs=
+//                ^ fg=#ae81ff fs=
 //                  ^ fg=#f8f8f2 fs=
 //                    ^^^ fg=#ae81ff fs=
 //                       ^ fg=#f8f8f2 fs=
-//                         ^^^^ fg=#ae81ff fs=
+//                         ^ fg=#ae81ff fs=
 //                             ^ fg=#f8f8f2 fs=
-//                               ^^^^ fg=#ae81ff fs=
+//                               ^ fg=#ae81ff fs=
 //                                   ^ fg=#f8f8f2 fs=
-//                                     ^^^^^ fg=#ae81ff fs=
+//                                     ^ fg=#ae81ff fs=
 //                                          ^^ fg=#f8f8f2 fs=
 
         "description": {"text": "...", "sensitive": false}
@@ -27,7 +27,7 @@ COLOR TEST "Packages/five_easy_color_schemes/Monokai (Dark).tmTheme" "JSON"
 //                     ^ fg=#f8f8f2 fs=
 //                                   ^ fg=#f8f8f2 fs=
 //                                                ^ fg=#f8f8f2 fs=
-//                                                  ^^^^^ fg=#ae81ff fs=
+//                                                  ^ fg=#ae81ff fs=
 //                                                       ^ fg=#f8f8f2 fs=
 
     }
