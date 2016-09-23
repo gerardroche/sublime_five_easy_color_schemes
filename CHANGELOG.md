@@ -1,5 +1,9 @@
 # gerardroche/sublime_five_easy_color_schemes
 
+## 0.7.1
+
+* Fixed: popup styles, they now use the defaults
+
 ## 0.7.0
 
 * Added: Tests

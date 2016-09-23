@@ -31,26 +31,6 @@
                 <key>stackGuide</key>                   <string>#3e3d32</string>
                 <key>tagsForeground</key>               <string>#f8f8f2a5</string>
                 <key>tagsOptions</key>                  <string>stippled_underline</string>
-
-                <key>popupCss</key>
-                <string><![CDATA[
-                    html {
-                        background-color: #3e3d32;
-                        color: #f8f8f2;
-                    }
-                    a {
-                        color: #66d9ef;
-                    }
-                    .error, .deleted {
-                        color: #f92672;
-                    }
-                    .success, .inserted {
-                        color: #a6e22e;
-                    }
-                    .warning, .modified {
-                        color: #fd971f;
-                    }
-                ]]></string>
             </dict>
         </dict>
         <dict>
