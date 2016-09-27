@@ -1,4 +1,8 @@
-# gerardroche/sublime_five_easy_color_schemes
+# FIVE_EASY_COLOR_SCHEMES CHANGELOG
+
+## 0.8.0
+
+* Updated: Support for color_scheme_unit 0.12.0
 
 ## 0.7.1
 

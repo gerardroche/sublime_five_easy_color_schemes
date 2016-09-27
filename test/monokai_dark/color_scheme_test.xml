@@ -1,4 +1,4 @@
-COLOR TEST "Packages/five_easy_color_schemes/Monokai (Dark).tmTheme" "XML"
+COLOR SCHEME TEST "five_easy_color_schemes/Monokai (Dark).tmTheme" "XML"
 
 <?xml version="1.0" encoding="UTF-8"?>
 <!--^ fg=#f92672 fs= -->
