@@ -22,10 +22,6 @@ body, .usertext {
 /* ^ fg=#66d9ef fs=italic */
 }
 
-@import url(print.css);
-/* ^ fg=#f92672 fs= */
-/*      ^ fg=#66d9ef fs= */
-/*          ^^^^^^^^^ fg=#e6db74 fs= */
 @media print {
 /* ^ fg=#f92672 fs= */
 /*      ^ fg=#66d9ef fs= */
