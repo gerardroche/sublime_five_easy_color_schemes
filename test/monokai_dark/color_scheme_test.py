@@ -6,6 +6,13 @@ COLOR SCHEME TEST "five_easy_color_schemes/Monokai (Dark).tmTheme" "Python"
 @requires_authorization
 # ^ fg=#f8f8f2 fs=
 def somefunc(param1='', param2=0):
+# ^ fg=#66d9ef
+# ^ bg=#272822
+# ^ fs=italic
+# ^ fg=#66d9ef bg=#272822 fs=italic
+# ^ fg=#66d9ef bg=#272822
+# ^ fg=#66d9ef fs=italic
+# ^ bg=#272822 fs=italic
 # ^ fg=#66d9ef fs=italic
 #       ^ fg=#a6e22e fs=
 #                   ^^ fg=#e6db74 fs=
