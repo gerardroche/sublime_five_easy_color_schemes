@@ -1,4 +1,8 @@
-# FIVE_EASY_COLOR_SCHEMES CHANGELOG
+# FIVE EASY COLOR SCHEMES CHANGELOG
+
+## 0.8.1
+
+* Updated: Support for color_scheme_unit 0.13.2
 
 ## 0.8.0
 

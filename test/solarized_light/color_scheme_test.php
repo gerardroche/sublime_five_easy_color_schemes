@@ -390,12 +390,12 @@ class c_name_a {}
 class c_name_b extends c_name_a {}
 //    ^ fg=#839496 fs=
 //             ^ fg=#b58900 fs=
-//                     ^ fg=#657b83 fs=
+//                     ^ fg=#586e75 fs=
 
 class name_impl implements i_name_a {}
 //    ^ fg=#839496 fs=
 //              ^ fg=#073642 fs=
-//                         ^ fg=#657b83 fs=
+//                         ^ fg=#586e75 fs=
 
 final class name_b {}
 // ^ fg=#073642 fs=
