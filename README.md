@@ -1,6 +1,10 @@
-# five_easy_color_schemes
+# NO LONGER MAINTAINED
 
-[![Author](https://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat)](https://twitter.com/gerardroche) [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/gerardroche/sublime_five_easy_color_schemes) [![License](https://img.shields.io/badge/license-BSD--3-blue.svg?style=flat)](https://raw.githubusercontent.com/gerardroche/sublime_five_easy_color_schemes/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime_five_easy_color_schemes.svg?style=flat)](https://github.com/gerardroche/sublime_five_easy_color_schemes/stargazers) [![Latest version](https://img.shields.io/github/tag/gerardroche/sublime_five_easy_color_schemes.svg?label=release&style=flat&maxAge=2592000)](https://github.com/gerardroche/sublime_five_easy_color_schemes/tags) [![Sublime version](https://img.shields.io/badge/sublime-v3-green.svg?style=flat)](https://sublimetext.com) [![Downloads](https://img.shields.io/packagecontrol/dt/five_easy_color_schemes.svg?style=flat&maxAge=2592000)](https://packagecontrol.io/packages/five_easy_color_schemes)
+Use [Molokai](https://packagecontrol.io/packages/molokai) and [Solarized Color Scheme](https://packagecontrol.io/packages/Solarized%20Color%20Scheme) instead.
+
+## Five easy color schemes
+
+[![Minimum Sublime version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime_five_easy_color_schemes.svg?style=flat-square&label=release)](https://github.com/gerardroche/sublime_five_easy_color_schemes/tags) [![Author](https://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat-square)](https://twitter.com/gerardroche)
 
 Monokai, Solarized, and three other popular color schemes for Sublime Text.
 
